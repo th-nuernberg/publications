@@ -1,0 +1,27 @@
+title: "Publications"
+description: "Technische Hochschule Nürnberg, Fakultät Informatik"
+
+url: https://th-nuernberg.github.io/publications
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - 'jekyll/scholar'
+
+exclude:
+  - _bibliography
+  - build.sh
+  - Gemfile
+  - vendor
+
+scholar:
+  style: ieee
+  sort_by: year
+  order: descending
+  group_by: type
+  bibliography_template: {{ reference }}
+  type_names:
+    misc: Talks
+    patent: Patents

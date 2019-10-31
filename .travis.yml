@@ -1,0 +1,12 @@
+language: ruby
+before_script:
+- chmod +x "./build.sh"
+script: "./build.sh"
+branches:
+  only:
+  - sources
+rvm:
+- 2.4
+env:
+  global:
+  - secure: "UBjtbiyANYr3oJIPiO/jGszmizVQx7F8E+1s2VoCXvN55Ic4q6Ljol33t/c9vN7JJVMXvhLinFL5W7Ee0O0dgRo5bwlUWmKoYCd2ChPKyoMh6tUNzwVYDVIawA+7Gi9ym2Ki6icHnaqJx8mrhwLZFYi1U/8Gyjb2Am6RfW/yAqjKncVAuUJSc4En/cx/ZWgg96uc6D4QTcdjGskfKUMv/oG8AuKbRt1jl9Zky1ie81fb4ZohI2JAwWPhZLuKR//TnhM/44T5ZDLKjjsmu6C40aDSyhYYCoMH3mfx13l1UJPue1Mib7MrVL5Rsl1s3ZehBn4ULZaH33rKoGffT80IllNNQQ7Qcqy/yQr0LBhxt54ozYk2CNdfuzFpMC0c7xyZpIzs1vw6nWRRTr/OGaF9DKc4kJDb51Mg0XgkDFngHFCJlvDazbdePc+9VWrHG6Lde1/F1iXJ6O7+5TwWqkyRNd1Av7w4ySqawyoY+CLY76+PWtUsTIoN9dtsWARRA+r8sQ/1kaIQW0UwLFtaSeaKL2SFsf6Uh/yh6ph6zRSLR/PIUjP7Fr/Eg9fQRVwmE0NOiJmBWKS4uoeQAVfcF4wpVaUcGcYh9cDn+C+ajV290lLI8PnWoXEYk80BVjnguaLit4YP600XtQZQcEIF+Kc1V+zYiNevUxfZdK64rfYdGxo="
