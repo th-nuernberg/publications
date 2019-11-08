@@ -18,7 +18,7 @@ grep '<li>' _site/index.html
 # cleanup
 rm -rf ../gh-pages
 
-#clone `master' branch of the repository using encrypted GH_TOKEN for authentification
+#clone `gh-pages' branch of the repository using encrypted GH_TOKEN for authentification
 git clone https://${GH_TOKEN}@github.com/th-nuernberg/publications.git \
 	--branch gh-pages --single-branch ../gh-pages
 
@@ -37,3 +37,5 @@ git config --global user.name "Korbinian Riedhammer"
 git add -A .
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
 git push origin gh-pages # > /dev/null 2>&1
+
+exit 0
