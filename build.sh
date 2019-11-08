@@ -19,12 +19,12 @@ grep '<li>' _site/index.html
 rm -rf ../gh-pages
 
 #clone `gh-pages' branch of the repository using encrypted GH_TOKEN for authentification
-git clone https://${GH_TOKEN}@github.com/th-nuernberg/publications.git \
+git clone https://sikoried:${GH_TOKEN}@github.com/th-nuernberg/publications.git \
 	--branch gh-pages --single-branch ../gh-pages
 
 # copy generated HTML site to `master' branch
 echo "Updating static _site content..."
-rm -r ../gh-pages/*
+rm -rf ../gh-pages/*
 cp -R _site/* ../gh-pages/
 
 # commit and push generated content to `master' branch
