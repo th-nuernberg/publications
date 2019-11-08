@@ -12,6 +12,9 @@ set -e
 # build site with jekyll, by default to `_site' folder
 bundle exec jekyll build
 
+# debug-- output all bib items
+grep '<li>' _site/index.html
+
 # cleanup
 rm -rf ../gh-pages
 
@@ -28,7 +31,7 @@ cp -R _site/* ../gh-pages/
 # since repository was cloned in write mode with token auth - we can push there
 cd ../gh-pages
 
-echo "Committing changes to master..."
+echo "Committing changes to gh-pages..."
 git config --global user.email "korbinianr@gmail.com"
 git config --global user.name "Korbinian Riedhammer"
 git add -A .
