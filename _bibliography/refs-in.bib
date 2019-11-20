@@ -1,495 +1,1670 @@
----
----
+% Encoding: UTF-8
 
-@string{ICASSP = {Proc.\ IEEE Int'l Conference on Acoustics, Speech, and Signal Processing (ICASSP)}}
-@string{IS = {Proc.\ Annual Conference of the Int'l Speech Communication Association (INTERSPEECH)}}
-@string{ICSLP = {Proc.\ Int'l Conference on Spoken Language Processing (ICSLP)}}
-@string{EUROSPEECH = {Proc.\ European Conference on Speech Communication and Technology (EUROSPEECH)}}
-@string{TSD = {Proc.\ Int'l Conference on Text, Speech and Dialogue (TSD)}}
-@string{LTC = {Proc.\ Int'l Conference on Language Technologies (LTC)}}
-@string{EUSIPCO = {Proc.\ European Signal Processing Conference (EUSIPCO)}}
-@string{LREC = {Proc.\ Language Resources and Evaluation (LREC)}}
-@string{ITICSE = {Proc.\ ACM Conference on Innovation and Technology in Computer Science Education (ITiCSE)}}
-@string{ICSPCC = {Proc.\ IEEE Int'l Conference on Signal Processing, Communication and Computing (ICSPCC)}}
-
-@string{ASRU = {Proc.\ IEEE Workshop on Speech Recognition and Understanding (ASRU)}}
-@string{SLT = {Proc.\ IEEE Workshop on Spoken Language Technologies (SLT)}}
-@string{WOCCI = {Proc.\ ISCA Workshop on Child, Computer and Interaction (WOCCI)}}
-@string{IWSLT = {Proc.\ Int'l Workshop on Spoken Language Translation}}
-
-@string{SPECOM = {Speech Communication}}
-@string{CSL = {Computer Speech and Language}}
-@string{TASLP = {IEEE Transactions on Audio, Speech and Language Processing}}
-@string{TSAP = {IEEE Transactions on Speech and Audio Processing}}
-@string{FPL = {Folia Phoniatrica et Logopaedica}}
-@string{APPA = {Aktuelle phoniatrisch-pädaudiologische Aspekte}}
-@string{JVOICE = {J Voice}}
+@string{AAAI = {Proc.\ Association for the Advancement of Artificial Intelligence Conference on Artificial Intelligence (AAAI)}}
 
 
 @string{ACL = {Proc.\ Annual Meeting of the Association for Computational Linguistics (ACL)}}
+@string{APPA = {Aktuelle phoniatrisch-pädaudiologische Aspekte}}
+
+@string{ASRU = {Proc.\ IEEE Workshop on Speech Recognition and Understanding (ASRU)}}
+@string{CSL = {Computer Speech \& Language}}
 @string{EACL = {Proc.\ Conference of the European Chapter of the Association for Computational Linguistics (EACL)}}
-@string{SIGDIAL = {Proc.\ Annual Meeting of the Association for Computational Linguistics Special Interest Group Meeting on Discourse and Dialogue (ACL SIGDIAL)}}
-
-@string{ICMI = {Proc.\ ACM Int'l Conference on Multimodal Interaction (ICMI)}}
-@string{SIGRIR = {Proc.\ ACM Int'l Conference of the Special Interest Group on Research and Development in Information Retrieval (SIGIR)}}
-
-@string{AAAI = {Proc.\ Association for the Advancement of Artificial Intelligence Conference on Artificial Intelligence (AAAI)}}
+@string{EUROSPEECH = {Proc.\ European Conference on Speech Communication and Technology (EUROSPEECH)}}
+@string{EUSIPCO = {Proc.\ European Signal Processing Conference (EUSIPCO)}}
+@string{FPL = {Folia Phoniatrica et Logopaedica}}
 @string{ICANN = {Proc.\ Int'l Conference on Artificial Neural Networks (ICANN))}}
 
-@inproceedings{bayerl2020omg,
-author = {Bayerl, Sebastian P. and Frassetto, Tommaso and Jauernig, Patrick and Riedhammer, Korbinian and Sadeghi, Ahmad-Reza and Schneider, Thomas and Stapf, Emmanuel and Weinert, Christian},
-title = {{Offline Model Guard}: Secure and Private ML on Mobile Devices},
-booktitle = {Proc.\ ACM SIGDA Conference on Design, Automation and Test in Europe (DATE)},
-year = {2020},
-keywords = {asr,emph}
+@string{ICASSP = {Proc.\ IEEE Int'l Conference on Acoustics, Speech, and Signal Processing (ICASSP)}}
+
+@string{ICMI = {Proc.\ ACM Int'l Conference on Multimodal Interaction (ICMI)}}
+@string{ICSLP = {Proc.\ Int'l Conference on Spoken Language Processing (ICSLP)}}
+@string{ICSPCC = {Proc.\ IEEE Int'l Conference on Signal Processing, Communication and Computing (ICSPCC)}}
+@string{IS = {Proc.\ Annual Conference of the Int'l Speech Communication Association (INTERSPEECH)}}
+@string{ITICSE = {Proc.\ ACM Conference on Innovation and Technology in Computer Science Education (ITiCSE)}}
+@string{IWSLT = {Proc.\ Int'l Workshop on Spoken Language Translation}}
+@string{JVOICE = {J Voice}}
+@string{LREC = {Proc.\ Language Resources and Evaluation (LREC)}}
+@string{LTC = {Proc.\ Int'l Conference on Language Technologies (LTC)}}
+@string{SIGDIAL = {Proc.\ Annual Meeting of the Association for Computational Linguistics Special Interest Group Meeting on Discourse and Dialogue (ACL SIGDIAL)}}
+@string{SIGRIR = {Proc.\ ACM Int'l Conference of the Special Interest Group on Research and Development in Information Retrieval (SIGIR)}}
+@string{SLT = {Proc.\ IEEE Workshop on Spoken Language Technologies (SLT)}}
+
+@string{SPECOM = {Speech Communication}}
+@string{TASLP = {IEEE Transactions on Audio, Speech and Language Processing}}
+@string{TSAP = {IEEE Transactions on Speech and Audio Processing}}
+@string{TSD = {Proc.\ Int'l Conference on Text, Speech and Dialogue (TSD)}}
+@string{WOCCI = {Proc.\ ISCA Workshop on Child, Computer and Interaction (WOCCI)}}
+
+@InProceedings{Bayerl2020OfflineModelGuard,
+  author    = {Sebastian P. Bayerl and Tommaso Frasetto and Patrick Jauernig and Korbinian Riedhammer and Ahmad-Reza Sadeghi and Thomas Schneider and Emmanuel Stapf and Christian Weinert},
+  title     = {{Offline Model Guard}: Secure and Private ML on Mobile Devices},
+  booktitle = {Proc. ACM SIGDA Conference on Design, Automation and Test in Europe (DATE)},
+  year      = {2020},
+  keywords  = {asr,emph},
 }
 
-@inproceedings{wenninger2019,
-author = {Wenninger, Marc and Bayerl, Sebastian P. and Schmidt, Jochen and Riedhammer, Korbinian},
-title = {Timage -- A Robust Time Series Classification Pipeline},
-booktitle = ICANN,
-year = {2019}
+@InProceedings{Wenninger2019TimageRobustTime,
+  author    = {Marc Wenninger and Sebastian P. Bayerl and Jochen Schmidt and Korbinian Riedhammer},
+  title     = {Timage -- A Robust Time Series Classification Pipeline},
+  booktitle = ICANN,
+  year      = {2019},
 }
 
-@inproceedings{bayerl2019aco,
-author = {Riedhammer, Korbinian and Bayerl, Sebastian P.},
-title = {A Comparison of Hybrid and End-to-End Models for
-Syllable Recognition},
-booktitle = TSD,
-keywords = {asr},
-year = 2019
+@InProceedings{Riedhammer2019ComparisonHybridEnd,
+  author    = {Korbinian Riedhammer and Sebastian P. Bayerl},
+  title     = {A Comparison of Hybrid and End-to-End Models for Syllable Recognition},
+  booktitle = TSD,
+  year      = {2019},
+  keywords  = {asr},
 }
 
-@inproceedings{brasser2018voiceguard,
-author = {Brasser, Ferdinand and Frassetto, Tommaso and Riedhammer, Korbinian and Sadeghi, Ahmad-Reza and Schneider, Thomas},
-title = {{VoiceGuard}: Secure and Private Speech Processing},
-booktitle = IS,
-year = {2018},
-keywords = {asr,emph}
+@InProceedings{Brasser2018VoiceGuardSecurePrivate,
+  author    = {Brasser, Ferdinand and Tommaso Frasetto and Korbinian Riedhammer and Ahmad-Reza Sadeghi and Thomas Schneider},
+  title     = {{VoiceGuard}: Secure and Private Speech Processing},
+  booktitle = IS,
+  year      = {2018},
+  keywords  = {asr,emph},
 }
 
-@inproceedings{faria2016rsc,
-author = {Faria, A. and Riedhammer, K. and Bauer, A. and Janin, A.},
-title = {REMEETING: Searchable Conversations},
-booktitle = SLT,
-year = {2016},
-keywords = {asr},
+@InProceedings{Faria2016REMEETINGSearchableConversations,
+  author    = {Arlo Faria and Korbinian Riedhammer and Adrian Bauer and Adam Janin},
+  title     = {REMEETING: Searchable Conversations},
+  booktitle = SLT,
+  year      = {2016},
+  keywords  = {asr},
 }
 
-@inproceedings{riedhammer2015rgm,
-author = {Riedhammer, K. and Faria, A.},
-title = {REMEETING — GET MORE OUT OF MEETINGS},
-booktitle = IS,
-note = {{\bf (best show and tell award)}},
-year = {2015},
-keywords = {ux}
+@InProceedings{Riedhammer2015REMEETINGGET,
+  author    = {Korbinian Riedhammer and Arlo Faria},
+  title     = {REMEETING - GET MORE OUT OF MEETINGS},
+  booktitle = IS,
+  year      = {2015},
+  note      = {{\bf (best show and tell award)}},
+  keywords  = {ux},
 }
 
-@inproceedings{riedhammer2014rgm,
-author = {Riedhammer, K. and Faria, A.},
-title = {REMEETING — GET MORE OUT OF MEETINGS},
-booktitle = SLT,
-year = {2014},
-keywords = {ux},
+@InProceedings{Riedhammer2014REMEETINGGET,
+  author    = {Korbinian Riedhammer and Arlo Faria},
+  title     = {REMEETING - GET MORE OUT OF MEETINGS},
+  booktitle = SLT,
+  year      = {2014},
+  keywords  = {ux},
 }
 
-@patent{faria2014sam,
-author = {Faria, A. and Riedhammer, K.},
-title = {System and Method for Privacy-Preserving Speech Processing},
-number = {Application No. 62047786},
-yearfiled = {2014},
-monthfiled = {Sept.},
-dayfiled = {9},
+@Patent{FariaSystemMethodPrivacy,
+  author     = {Arlo Faria and Korbinian Riedhammer},
+  title      = {System and Method for Privacy-Preserving Speech Processing},
+  number     = {Application No. 62047786},
+  dayfiled   = {9},
+  monthfiled = {Sept.},
+  yearfiled  = {2014},
 }
 
-@inproceedings{riedhammer2014sac,
-author = {Riedhammer, K. and Bocklet, T. and {Orozco-Arroyave}, {J. R.} and Nöth, E.},
-title = {Semi-Automatic Calibration for Dereverberation by Spectral Subtraction for Continous Speech Recognition},
-booktitle = {ITG Conference on Speech Communication 2014},
-year = {2014},
-keywords = {asr}
+@InProceedings{Riedhammer2014SemiAutomaticCalibration,
+  author    = {Korbinian Riedhammer and Tobias Bocklet and Juan Rafael {Orozco-Arroyave} and Elmar Nöth},
+  title     = {Semi-Automatic Calibration for Dereverberation by Spectral Subtraction for Continous Speech Recognition},
+  booktitle = {ITG Conference on Speech Communication 2014},
+  year      = {2014},
+  keywords  = {asr},
 }
 
-@inproceedings{ghahremani2014ape,
-author = {Ghahremani, P. and {Baba Ali}, B. and Povey, D. and Riedhammer, K. and Trmal, J. and Khundanpur, S.},
-title = {A Pitch Algorithm Tuned for Automatic Speech Recognition Systems},
-booktitle = ICASSP,
-year = {2014},
-keywords = {asr}
+@InProceedings{Ghahremani2014PitchAlgorithmTuned,
+  author    = {Pegah Ghahremani and Bagher {Baba Ali} and Daniel Povey and Korbinian Riedhammer and Jan Trmal and Sanjeev Khundanpur},
+  title     = {A Pitch Algorithm Tuned for Automatic Speech Recognition Systems},
+  booktitle = ICASSP,
+  year      = {2014},
+  keywords  = {asr},
 }
 
-@inproceedings{bocklet2014eca,
-author = {Bocklet, T and Maier, A. and Riedhammer, K. and Eysholdt, U. and Nöth, E.},
-title = {Erlangen-{CLP}: A Large Annotated Corpus of Speech from Children with Cleft Lip and Palate},
-booktitle = LREC,
-year = {2014},
-keywords = {pls}
+@InProceedings{Bocklet2014ErlangenCLPLarge,
+  author    = {Tobias Bocklet and Andreas Maier and Korbinian Riedhammer and Ulrich Eysholdt and Elmar Nöth},
+  title     = {Erlangen-{CLP}: A Large Annotated Corpus of Speech from Children with Cleft Lip and Palate},
+  booktitle = LREC,
+  year      = {2014},
+  keywords  = {pls},
 }
 
-@patent{riedhammer2013ppc,
-author = {K. Riedhammer},
-title = {Privacy Preserving Client-Server Based Automatic Speech Recognition},
-number = {Application No. 14/064,984},
-yearfiled = {2013},
-monthfiled = {Oct.},
-dayfiled = {28}
+@Patent{RiedhammerPrivacyPreservingClient,
+  author     = {Korbinian Riedhammer},
+  title      = {Privacy Preserving Client-Server Based Automatic Speech Recognition},
+  number     = {Application No. 14/064,984},
+  dayfiled   = {28},
+  monthfiled = {Oct.},
+  yearfiled  = {2013},
 }
 
-@inproceedings{wegmann2013tto,
-title = {{The Tao of ATWV: Probing the Mysteries of Keyword Search Performance}},
-author = {Wegmann, S. and Faria, A. and Janin, A. and Riedhammer, K. and Morgan, N.},
-booktitle = ASRU,
-year = {2013},
-note = {{\bf (best paper award)}},
-keywords = {emph,asr}
+@InProceedings{Wegmann2013TaoATWVProbing,
+  author    = {Steven Wegmann and Arlo Faria and Adam Janin and Korbinian Riedhammer and Nelson Morgan},
+  title     = {{The Tao of ATWV: Probing the Mysteries of Keyword Search Performance}},
+  booktitle = ASRU,
+  year      = {2013},
+  note      = {{\bf (best paper award)}},
+  keywords  = {emph,asr},
 }
 
-@inproceedings{riedhammer2013lam,
-title = {{LMELectures}: A Multimedia Corpus of Academic Spoken English},
-author = {Riedhammer, K. and Gropp, M. and Bocklet, T. and Hönig, F. and Nöth, E. and Steidl, S.},
-booktitle = {\em First Workshop on Speech, Language and Audio in Multimedia (SLAM)},
-year = {2013},
-pages = {102--107},
-keywords = {slu}
+@InProceedings{Riedhammer2013LMELecturesMultimediaCorpus,
+  author    = {Korbinian Riedhammer and Martin Gropp and Tobias Bocklet and Florian Hönig and Elmar Nöth and Stefan Steidl},
+  title     = {{LMELectures}: A Multimedia Corpus of Academic Spoken English},
+  booktitle = {First Workshop on Speech, Language and Audio in Multimedia (SLAM)},
+  year      = {2013},
+  pages     = {102--107},
+  keywords  = {slu},
 }
 
-@inproceedings{riedhammer2013aso,
-title = {A Study on {LVCSR} and Keyword Search for Tagalog},
-author = {Riedhammer, K. and {Hai Do}, Van and Hieronymus, James},
-booktitle = IS,
-year = {2013},
-keywords = {asr}
+@InProceedings{Riedhammer2013StudyLVCSRKeyword,
+  author    = {Korbinian Riedhammer and Van {Hai Do} and James Hieronymus},
+  title     = {A Study on {LVCSR} and Keyword Search for Tagalog},
+  booktitle = IS,
+  year      = {2013},
+  keywords  = {asr},
 }
 
-@inproceedings{bocklet2013apa,
-title = {Automatic Phoneme Analysis in Children with Cleft Lip and Palate},
-author = {Bocklet, T. and Riedhammer, K. and Eysholdt, U. and Nöth, E.},
-booktitle = ICASSP,
-year = {2013},
-note = {7572--7576},
-keywords = {pls}
+@InProceedings{Bocklet2013AutomaticPhonemeAnalysis,
+  author    = {Tobias Bocklet and Korbinian Riedhammer and Ulrich Eysholdt and Elmar Nöth},
+  title     = {Automatic Phoneme Analysis in Children with Cleft Lip and Palate},
+  booktitle = ICASSP,
+  year      = {2013},
+  note      = {7572--7576},
+  keywords  = {pls},
 }
 
-@inproceedings{riedhammer2012tfv,
-author = {Riedhammer, K. and Gropp, M. and Nöth, E.},
-title = {The {FAU Video Lecture Browser} System},
-booktitle = SLT,
-year = {2012},
-pages = {392--397},
-keywords = {ux}
+@InProceedings{Riedhammer2012FAUVideoLecture,
+  author    = {Korbinian Riedhammer and Martin Gropp and Elmar Nöth},
+  title     = {The {FAU Video Lecture Browser} System},
+  booktitle = SLT,
+  year      = {2012},
+  pages     = {392--397},
+  keywords  = {ux},
 }
 
-@book{riedhammer2012iat,
-author = {Riedhammer, K.},
-title = {Interactive Approaches to Video Lecture Assessment},
-publisher = {Logos Verlag Berlin},
-year = {2012},
+@Book{Riedhammer2012InteractiveApproachesVideo,
+  author    = {Korbinian Riedhammer},
+  title     = {Interactive Approaches to Video Lecture Assessment},
+  year      = {2012},
+  publisher = {Logos Verlag Berlin},
 }
 
-@inproceedings{hoenig2012taa,
-author = {Hönig, F. and Bocklet, T. and Riedhammer, K. and Batliner, A. and Nöth, E.},
-title = {The Automatic Assessment of Non-native Prosody: Combining Classical Prosodic Analysis with Acoustic Modelling},
-booktitle = IS,
-year = {2012},
-keywords = {pls}
+@InProceedings{Hoenig2012AutomaticAssessmentNon,
+  author    = {Florian Hönig and Tobias Bocklet and Korbinian Riedhammer and Anton Batliner and Elmar Nöth},
+  title     = {The Automatic Assessment of Non-native Prosody: Combining Classical Prosodic Analysis with Acoustic Modelling},
+  booktitle = IS,
+  year      = {2012},
+  keywords  = {pls},
 }
 
-@inproceedings{riedhammer2012ask,
-author = {Riedhammer, K. and Ring, M. and Nöth, E. and Kolb, D.},
-title = {A Software Kit for Automatic Voice Descrambling},
-booktitle = {Proc.\ IEEE International Workshop on Security and Forensics in Communication Systems (SFCS)},
-year = {2012},
-pages = {8349--8353},
-keywords = {pls}
+@InProceedings{Riedhammer2012SoftwareKitAutomatic,
+  author    = {Korbinian Riedhammer and Matthias Ring and Elmar Nöth and Dirk Kolb},
+  title     = {A Software Kit for Automatic Voice Descrambling},
+  booktitle = {Proc. IEEE International Workshop on Security and Forensics in Communication Systems (SFCS)},
+  year      = {2012},
+  pages     = {8349--8353},
+  keywords  = {pls},
 }
 
-@inproceedings{riedhammer2012rsh,
-author = {Riedhammer, K. and Bocklet, T. and Ghoshal, A. and Povey, D.},
-title = {{Revisiting Semi-Continuous Hidden Markov Models}},
-booktitle = ICASSP,
-year = {2012},
-pages = {4721--4724},
-keywords = {asr}
+@InProceedings{Povey2012GeneratingExactLattices,
+  author    = {Daniel Povey and Mirko Hannemann and Guillaume Boulianne and Lukas Burget and Arnab Ghoshal and Milos Janda and Martin Karaffiat and Stefan Kombrink and Petr Motlicek and Yanmin Quian and Ngoc {Thang Vu} and Korbinian Riedhammer and Karel Vesely},
+  title     = {{Generating Exact Lattices in the WFST Framework}},
+  booktitle = ICASSP,
+  year      = {2012},
+  pages     = {4213--4216},
+  keywords  = {asr},
 }
 
-@inproceedings{povey2012gel,
-author = {Povey, D. and Hannemann, M. and Boulianne, G. and Burget, L. and Ghoshal, A. and Janda, M. and Karaffiat, M. and Kombrink, S. and Motlicek, P. and Quian, Y. and {Thang Vu}, N. and Riedhammer, K. and Vesely, K.},
-title = {{Generating Exact Lattices in the WFST Framework}},
-booktitle = ICASSP,
-year = {2012},
-pages = {4213--4216},
-keywords = {asr}
+@InProceedings{Riedhammer2011NovelLectureBrowser,
+  author    = {Korbinian Riedhammer and Martin Gropp and Elmar Nöth},
+  title     = {{A Novel Lecture Browser Using Key Phrases and Stream Graphs}},
+  booktitle = ASRU,
+  year      = {2011},
+  keywords  = {emph,ux},
 }
 
-@inproceedings{riedhammer2011anl,
-author = {Riedhammer, K. and Gropp, M. and Nöth, E.},
-title = {{A Novel Lecture Browser Using Key Phrases and Stream Graphs}},
-year = {2011},
-booktitle = ASRU,
-keywords = {emph,ux}
+@InProceedings{Gropp2011NovelLectureBrowsing,
+  author    = {Martin Gropp and Elmar Nöth and Korbinian Riedhammer},
+  title     = {{A Novel Lecture Browsing System Using Ranked Key Phrases and StreamGraphs}},
+  booktitle = TSD,
+  year      = {2011},
+  pages     = {17--24},
+  keywords  = {slu},
 }
 
-@inproceedings{gropp2011anl,
-author = {Gropp, M. and Nöth, E. and Riedhammer, K.},
-title = {{A Novel Lecture Browsing System Using Ranked Key Phrases and StreamGraphs}},
-year = {2011},
-booktitle = TSD,
-pages = {17--24},
-keywords = {slu}
+@InProceedings{Steidl2011JavaVisualSpeech,
+  author    = {Stefan Steidl and Korbinian Riedhammer and Tobias Bocklet and Florian Hönig and Elmar Nöth},
+  title     = {{Java Visual Speech Components for Rapid Application Development of GUI based Speech Processing Applications}},
+  booktitle = IS,
+  year      = {2011},
+  pages     = {3257--3260},
+  keywords  = {asr},
 }
 
-@inproceedings{steidl2011jvs,
-author = {Steidl, S. and Riedhammer, K. and Bocklet, T. and Hönig, F. and Nöth, E.},
-title = {{Java Visual Speech Components for Rapid Application Development of GUI based Speech Processing Applications}},
-year = {2011},
-booktitle = IS,
-pages = {3257--3260},
-keywords = {asr}
+@InProceedings{Bocklet2011DrinkSpeakautomaticb,
+  author    = {Tobias Bocklet and Korbinian Riedhammer and Elmar Nöth},
+  title     = {{Drink and Speak: On the automatic classification of alcohol intoxination by acoustic, prosodic and text-based features}},
+  booktitle = IS,
+  year      = {2011},
+  pages     = {3213--3216},
+  keywords  = {pls},
 }
 
-@inproceedings{bocklet2011das,
-author = {Bocklet, T. and Riedhammer, K. and Nöth, E.},
-title = {{Drink and Speak: On the automatic classification of alcohol intoxination by acoustic, prosodic and text-based features}},
-year = {2011},
-booktitle = IS,
-pages = {3213--3216},
-keywords = {pls}
+@Article{Bocklet2012AutomaticIntelligibilityAssessment,
+  author   = {Tobias Bocklet and Korbinian Riedhammer and Elmar Nöth and Ulrich Eysholdt and Tino Haderlein},
+  title    = {{Automatic Intelligibility Assessment of Speakers After Laryngeal Cancer by Means of Acoustic Modeling}},
+  journal  = JVOICE,
+  year     = {2012},
+  volume   = {26},
+  number   = {3},
+  pages    = {390--397},
+  keywords = {pls},
 }
 
-@article{bocklet2012aia,
-author = {Bocklet, T. and Riedhammer, K. and Nöth, E. and Eysholdt, U. and Haderlein, T.},
-title = {{Automatic Intelligibility Assessment of Speakers After Laryngeal Cancer by Means of Acoustic Modeling}},
-year = {2012},
-journal = JVOICE,
-volume = {26},
-number = {3},
-pages = {390--397},
-keywords = {pls}
+@InProceedings{Riedhammer2011CompensationExtrinsicVariability,
+  author    = {Korbinian Riedhammer and Tobias Bocklet and Elmar Nöth},
+  title     = {{Compensation of Extrinsic Variability in Speaker Verification Systems on Simulated Skype and HF Channel Data}},
+  booktitle = ICASSP,
+  year      = {2011},
+  pages     = {4840--4843},
+  keywords  = {asr},
 }
 
-@inproceedings{riedhammer2011coe,
-author = { Riedhammer, K. and Bocklet, T. and Nöth, E.},
-title = {{Compensation of Extrinsic Variability in Speaker Verification Systems on Simulated Skype and HF Channel Data}},
-year = {2011},
-booktitle = ICASSP,
-pages = {4840--4843},
-keywords = {asr}
+@Article{Riedhammer2010LongStoryShort,
+  author   = {Korbinian Riedhammer and Benoit Favre and Dilek {Hakkani-Tür}},
+  title    = {{Long Story Short -- Global Unsupervised Models for Keyphrase Based Meeting Summarization}},
+  journal  = SPECOM,
+  year     = {2010},
+  volume   = {52},
+  number   = {10},
+  pages    = {801--815},
+  keywords = {emph,slu},
 }
 
-@article{riedhammer2010lss,
-author = {Riedhammer, K. and Favre, B. and {Hakkani-Tür}, D.},
-title = {{Long Story Short -- Global Unsupervised Models for Keyphrase Based Meeting Summarization}},
-journal = SPECOM,
-volume = {52},
-number = {10},
-pages = {801--815},
-year = {2010},
-keywords = {emph,slu}
+@InProceedings{Kiesmueller2010OnlineIdentificationLearner,
+  author    = {Ulrich Kiesmüller and Sebastian Sossalla and Torsten Brinda and Korbinian Riedhammer},
+  title     = {{Online Identification of Learner Problem Solving Strategies Using Pattern Recognition Methods}},
+  booktitle = ITICSE,
+  year      = {2010},
+  pages     = {274--278},
+  keywords  = {pls},
 }
 
-@inproceedings{kiesmueller2012oio,
-author = {Kiesmüller, U. and Sossalla, S. and Brinda, T. and Riedhammer, K.},
-title = {{Online Identification of Learner Problem Solving Strategies Using Pattern Recognition Methods}},
-booktitle = ITICSE,
-year = {2010},
-pages = {274--278},
-keywords = {pls}
+@InProceedings{Zaeh2010ClapYourHands,
+  author    = {Uwe Zäh and Korbinian Riedhammer and Tobias Bocklet and Elmar Nöth},
+  title     = {{Clap Your Hands! Calibrating Spectral Subtraction for Dereverberation}},
+  booktitle = ICASSP,
+  year      = {2010},
+  pages     = {4226--4229},
+  keywords  = {asr},
 }
 
-@inproceedings{zaeh2010cyh,
-author = {Zäh, U. and Riedhammer, K. and Bocklet, T. and Nöth, E.},
-title = {{Clap Your Hands! Calibrating Spectral Subtraction for Dereverberation}},
-year = {2010},
-booktitle = ICASSP,
-pages = {4226--4229},
-keywords = {asr}
+@InProceedings{Spiegl2010FAUIISAHCorpus,
+  author    = {Werner Spiegl and Korbinian Riedhammer and Stefan Steidl and Elmar Nöth},
+  title     = {{FAU IISAH Corpus -- A German Speech Database Consisting of Human-Machine and Human-Human Interaction Acquired by Close-Talking and Far-Distance Microphones}},
+  booktitle = LREC,
+  year      = {2010},
+  pages     = {2420--2423},
+  keywords  = {slu},
 }
 
-@inproceedings{spiegl2010fic,
-author = {Spiegl, W. and Riedhammer, K. and Steidl, S. and Nöth, E.},
-title = {{FAU IISAH Corpus -- A German Speech Database Consisting of Human-Machine and Human-Human Interaction Acquired by Close-Talking and Far-Distance Microphones}},
-booktitle = LREC,
-year = {2010},
-pages = {2420--2423},
-keywords = {slu}
+@Article{Tur2010CALOMeetingAssistant,
+  author   = {Gokhan Tur and Andreas Stolcke and Lynn Voss and Stanley Peters and Dilek {Hakkani-Tür} and John Dowding and Benoit Favre and Raquel Fernandez and Matthew Frampton and Mike Frandsen and Clint Frederickson and Martin Graciarena and Donald Kintzing and Kyle Leveque and Shane Mason and John Niekrasz and Matthew Purver and Korbinian Riedhammer and Elizabeth Shriberg and Jing Tien and Dimitra Vergyri and Fan Yang},
+  title    = {The {CALO} Meeting Assistant System},
+  journal  = TASLP,
+  year     = {2010},
+  volume   = {18},
+  number   = {6},
+  pages    = {1601--1611},
+  keywords = {emph,slu},
 }
 
-@article{tur2010cma,
-author = {Tur, G. and Stolcke, A. and Voss, L. and Peters, S. and {Hakkani-Tür}, D. and Dowding, J. and Favre, B. and Fern, Fernandez, R. and Frampton, M. and Frandsen, M. and 
-		  Frederickson, C. and Graciarena, M. and Kintzing, D. and Leveque, K. and 
-		  Mason, S. and Niekrasz, J. and Purver, M. and Riedhammer, K. and Shriberg, E. and
-		  Tien, J. and Vergyri, D. and Yang, F.},
-title = {The {CALO} Meeting Assistant System},
-journal = TASLP,
-year = {2010},
-pages = {1601--1611},
-volume = {18},
-number = {6},
-keywords = {emph,slu}
+@InProceedings{Bocklet2009TowardsLanguageindependenta,
+  author    = {Tobias Bocklet and Andreas Maier and Korbinian Riedhammer and Elmar Nöth},
+  title     = {{Towards a Language-independent Intelligibility Assessment of Children with Cleft Lip and Palate}},
+  booktitle = WOCCI,
+  year      = {2009},
+  pages     = {2015--2018},
+  keywords  = {pls},
 }
 
-@inproceedings{bocklet2009tal,
-author = {Bocklet, T. and Maier, A. and Riedhammer, K. and Nöth, E.}, 
-title = {{Towards a Language-independent Intelligibility Assessment of Children with Cleft Lip and Palate}},
-booktitle = WOCCI,
-year = {2009},
-pages = {2015--2018},
-keywords = {pls}
+@InProceedings{Garg2009ClusterRankGraphBased,
+  author    = {Nikhil Garg and Benoit Favre and Korbinian Riedhammer and Dilek {Hakkani-Tür}},
+  title     = {{ClusterRank}: A Graph Based Method for Meeting Summarization},
+  booktitle = IS,
+  year      = {2009},
+  pages     = {1499--1502},
+  keywords  = {slu},
 }
 
-@inproceedings{garg2009cag,
-author = {Garg, N. and Favre, B. and Riedhammer, K. and {Hakkani-Tür}, D.},
-title = {{ClusterRank}: A Graph Based Method for Meeting Summarization},
-year = {2009},
-pages = {1499--1502},
-booktitle = IS,
-keywords = {slu}
+@Article{Haderlein2009AutomatisierungdesPostlaryngektomie,
+  author   = {Tino Haderlein and Korbinian Riedhammer and Andreas Maier and Elmar Nöth and Ulrich Eysholdt and Frank Rosanowski},
+  title    = {{Automatisierung des Postlaryngektomie-Telefontests}},
+  journal  = {HNO},
+  year     = {2009},
+  volume   = {57},
+  pages    = {51--56},
+  keywords = {pls},
 }
 
-@article{haderlein2009adp,
-author = {Haderlein, T. and Riedhammer, K. and Maier, A. and Nöth, E. and Eysholdt, U. and Rosanowski, F.},
-journal = {HNO},
-volume = {57},
-title = {{Automatisierung des Postlaryngektomie-Telefontests}},
-year = {2009},
-pages = {51--56},
-keywords = {pls}
+@InProceedings{Gillick2009GlobalOptimizationFramework,
+  author    = {Daniel Gillick and Korbinian Riedhammer and Benoit Favre and Dilek {Hakkani-Tür}},
+  title     = {{A Global Optimization Framework for Meeting Summarization}},
+  booktitle = ICASSP,
+  year      = {2009},
+  pages     = {4769--4772},
+  keywords  = {slu},
 }
 
-@inproceedings{gillick2009ago,
-author    = {Gillick, D. and Riedhammer, K. and Favre, B. and {Hakkani-Tür}, D.},
-title     = {{A Global Optimization Framework for Meeting Summarization}},
-year      = {2009},
-pages     = {4769--4772},
-booktitle = ICASSP,
-keywords = {slu}
+@InProceedings{Riedhammer2008KeyphraseBasedApproach,
+  author    = {Korbinian Riedhammer and Benoit Favre and Dilek {Hakkani-Tür}},
+  title     = {{A Keyphrase Based Approach to Interactive Meeting Summarization}},
+  booktitle = SLT,
+  year      = {2008},
+  pages     = {153--156},
+  keywords  = {slu},
 }
 
-@inproceedings{riedhammer2008akb,
-author    = {Riedhammer, K. and Favre, B. and {Hakkani-Tür}, D.},
-title     = {{A Keyphrase Based Approach to Interactive Meeting Summarization}},
-year      = {2008},
-pages     = {153--156},
-booktitle = SLT,
-keywords = {slu}
+@Article{Haderlein2008ApplicationAutomaticSpeech,
+  author   = {Tino Haderlein and Korbinian Riedhammer and Elmar Nöth and Hikmet Toy and Maria Schuster and Ulrich Eysholdt and Joachim Hornegger and Frank Rosanowski},
+  title    = {{Application of Automatic Speech Recognition to Quantitative Assessment of Tracheoesophageal Speech in Different Signal Quality}},
+  journal  = FPL,
+  year     = {2008},
+  pages    = {12--17},
+  keywords = {pls},
 }
 
-@article{haderlein2008aoa,
-author    = {Haderlein, T. and Riedhammer, K. and Nöth, E. and Toy, H. and Schuster, M. and Eysholdt, U. and Hornegger, J. and Rosanowski, F.},
-title     = {{Application of Automatic Speech Recognition to Quantitative Assessment of Tracheoesophageal Speech in Different Signal Quality}},
-year      = {2008},
-journal   = FPL, 
-pages     = {12--17},
-keywords = {pls}
+@InProceedings{Tur2008CALOMeetingSpeech,
+  author    = {Gokhan Tur and Andreas Stolcke and Lynn Voss and John Dowding and Benoit Favre and Raquel Fernandez and Matthew Frampton and Mike Frandsen and Clint Frederickson and Martin Graciarena and Dilek {Hakkani-Tür} and Donald Kintzing and Kyle Leveque and Shane Mason and John Niekrasz and Stanley Peters and Matthew Purver and Korbinian Riedhammer and Elizabeth Shriberg and Jing Tien and Dimitra Vergyri and Fan Yang},
+  title     = {{The CALO Meeting Speech Recognition and Understanding System}},
+  booktitle = SLT,
+  year      = {2008},
+  pages     = {69--72},
+  keywords  = {slu},
 }
 
-@inproceedings{tur2008tcm,
-author    = {Tur, G. and Stolcke, A. and Voss, L. and Dowding, J. and Favre, B. and Fernandez, R. and Frampton, M. 
-             and Frandsen, M. and Frederickson, C. and Graciarena, M. and {Hakkani-Tür}, D. and Kintzing, D.
-			 and Leveque, K. and Mason, S. and Niekrasz, J. and Peters, S. and Purver, M. and Riedhammer, K.
-			 and Shriberg, E. and Tien, J. and Vergyri, D. and Yang, F.},
-title     = {{The CALO Meeting Speech Recognition and Understanding System}},
-year      = {2008},
-pages     = {69--72},
-booktitle = SLT,
-keywords = {slu}
+@InProceedings{Riedhammer2008PackingMeetingSummarization,
+  author    = {Korbinian Riedhammer and Daniel Gillick and Benoit Favre and Dilek {Hakkani-Tür}},
+  title     = {{Packing the Meeting Summarization Knapsack}},
+  booktitle = IS,
+  year      = {2008},
+  pages     = {2434--2437},
+  keywords  = {slu},
 }
 
-@inproceedings{riedhammer2008ptm,
-author    = {Riedhammer, K. and Gillick, D. and Favre, B. and {Hakkani-Tür}, D.},
-title     = {{Packing the Meeting Summarization Knapsack}},
-year      = {2008},
-pages     = {2434--2437},
-booktitle = IS,
-keywords = {slu}
+@Book{Riedhammer2008AutomaticIntelligibilityTest,
+  author    = {Korbinian Riedhammer},
+  title     = {{An Automatic Intelligibility Test Based on the Post-Laryngectomy Telephone Test}},
+  year      = {2008},
+  publisher = {Mueller Verlag},
+  keywords  = {slp},
 }
 
-@book{riedhammer2008aai,
-author    = {Riedhammer, K.},
-title     = {{An Automatic Intelligibility Test Based on the Post-Laryngectomy Telephone Test}},
-year      = {2008},
-publisher = {Mueller Verlag},
-keywords = {slp}
+@InProceedings{Riedhammer2007TowardsRobustAutomatic,
+  author    = {Korbinian Riedhammer and Georg Stemmer and Tino Haderlein and Maria Schuster and Frank Rosanowski and Elmar Nöth and Andreas Maier},
+  title     = {{Towards Robust Automatic Evaluation of Pathologic Telephone Speech}},
+  booktitle = ASRU,
+  year      = {2007},
+  pages     = {717--722},
+  keywords  = {pls},
 }
 
-@inproceedings{riedhammer2007tra,
-title     = {{Towards Robust Automatic Evaluation of Pathologic Telephone Speech}},
-author    = {Riedhammer, K. and Stemmer, G. and Haderlein, T. and Schuster, M. and Rosanowski, F. and Nöth, E. and Maier, A.},
-booktitle = ASRU,
-pages     = {717--722},
-year      = {2007},
-keywords = {pls}
+@InProceedings{Haderlein2007AutomaticVersionPost,
+  author    = {Tino Haderlein and Korbinian Riedhammer and Andreas Maier and Elmar Nöth and Toy, H. and Frank Rosanowski},
+  title     = {{An Automatic Version of the Post-Laryngectomy Telephone Test}},
+  booktitle = TSD,
+  year      = {2007},
+  pages     = {238--245},
+  keywords  = {pls},
 }
 
-@inproceedings{haderlein2007aav,
-author    = {Haderlein, T. and Riedhammer, K. and Maier, A. and Nöth, E. and Toy, H. and Rosanowski, F.},
-title     = {{An Automatic Version of the Post-Laryngectomy Telephone Test}},
-booktitle = TSD,
-pages     = {238--245},
-year      = {2007},
-keywords = {pls}
+@InProceedings{Noeth2007AutomaticEvaluationPathologic,
+  author    = {Elmar Nöth and Andreas Maier and Tino Haderlein and Korbinian Riedhammer and Frank Rosanowski and Maria Schuster},
+  title     = {{Automatic Evaluation of Pathologic Speech - from Research to Routine Clinical Use}},
+  booktitle = TSD,
+  year      = {2007},
+  pages     = {294--301},
+  keywords  = {pls},
 }
 
-@inproceedings{noeth2007aeo,
-author    = {Nöth, E. and Maier, A. and Haderlein, T. and Riedhammer, K. and Rosanowski, F. and Schuster, M.},
-title     = {{Automatic Evaluation of Pathologic Speech - from Research to Routine Clinical Use}},
-booktitle = TSD,
-pages     = {294--301},
-year      = {2007},
-keywords = {pls}
+@InProceedings{Haderlein2007AutomatisierungdesPostlaryngektomie,
+  author    = {Tino Haderlein and Ulrich Eysholdt and Korbinian Riedhammer and Elmar Nöth and Frank Rosanowski},
+  title     = {{Automatisierung des Postlaryngektomie-Telefontests (PLTT)}},
+  booktitle = APPA,
+  year      = {2007},
+  pages     = {66--69},
+  keywords  = {pls},
 }
 
-@inproceedings{haderlein2007adp,
-author    = {Haderlein, T. and Eysholdt, U. and Riedhammer, K. and Nöth, E. and Rosanowski, F.},
-title     = {{Automatisierung des Postlaryngektomie-Telefontests (PLTT)}},
-booktitle = APPA,
-pages     = {66--69},
-year      = {2007},
-keywords = {pls}
+@InProceedings{Riedhammer2006AutomaticEvaluationTracheoesophageal,
+  author    = {Korbinian Riedhammer and Tino Haderlein and Maria Schuster and Frank Rosanowski and Elmar Nöth},
+  title     = {{Automatic Evaluation of Tracheoesophageal Telephone Speech}},
+  booktitle = {Proc. Int'l Conference on Language Technologies (IS-LTC)},
+  year      = {2006},
+  pages     = {17--22},
+  keywords  = {pls},
 }
 
-@thesis{riedhammer2007umi,
-author    = {Riedhammer, K.},
-title     = {{User Modeling in Emotion Recognition}},
-year      = {2007},
-howpublished = {Diplomarbeit Informatik, Dept. Informatik 5 (Pattern Recognition), University of Erlangen-Nuremberg},
-school    = { University of Erlangen-Nuremberg }
+@InProceedings{Riedhammer2006DietracheooesophagealeErsatzstimme,
+  author   = {Korbinian Riedhammer and Tino Haderlein and Elmar Nöth and Hikmet Toy and Ulrich Eysholdt and Frank Rosanowski},
+  title    = {{Die tracheoösophageale Ersatzstimme: Automatische Verständlichkeitsbewertung über das Telefon}},
+  year     = {2006},
+  pages    = {51--53},
+  journal  = APPA,
+  keywords = {pls},
 }
 
-@inproceedings{riedhammer2006aeo,
-title     = {{Automatic Evaluation of Tracheoesophageal Telephone Speech}},
-author    = {Riedhammer, K. and Haderlein, T. and Schuster, M. and Rosanowski, F. and Nöth, E.},
-pages     = {17--22},
-booktitle = {Proc. Int'l Conference on Language Technologies (IS-LTC)},
-year      = {2006},
-keywords  = {pls}
+@Book{Schildt2007CCGePackt,
+  author    = {Schildt, H.},
+  title     = {C/C++ Ge-Packt},
+  year      = {2007},
+  editor    = {Korbinian Riedhammer},
+  edition   = {3. ed.},
+  publisher = {Mitp-Verlag},
 }
 
-
-@inproceedings{riedhammer2006dto,
-author    = {Riedhammer, K. and Haderlein, T. and Nöth, E. and Toy, H. and Eysholdt, U. and Rosanowski, F.},
-title     = {{Die tracheoösophageale Ersatzstimme: Automatische Verständlichkeitsbewertung über das Telefon}},
-journal   = APPA,
-pages     = {51--53},
-year      = {2006},
-keywords = {pls}
+@Book{Schildt2007CDieprofessionelle,
+  author    = {Schildt, H.},
+  title     = {C++ Die professionelle Referenz. IT-Studienausgabe},
+  year      = {2007},
+  editor    = {Korbinian Riedhammer},
+  edition   = {2. ed.},
+  publisher = {Mitp-Verlag},
 }
 
-@book{Schildt-cpp1,
-author    = {Schildt, H.},
-title     = {C/C++ Ge-Packt},
-edition   = {3. ed.},
-publisher = {Mitp-Verlag},
-year      = {2007},
-editor    = {Riedhammer, K.},
+@InProceedings{TavakoliKolagari2004TowardsFrameworkRequirements,
+  author        = {Ramin {Tavakoli Kolagari}},
+  title         = {Towards a Framework for Requirements Engineering for Automotive Software System Product Lines in an OEM and Supplier Setting},
+  booktitle     = {Proceedings of the Doctoral Consortium of the IEEE Joint International Requirements Engineering Conference (RE'04)},
+  year          = {2004},
+  publisher     = {IEEE Computer Society, Los Alamitos},
+  month         = {September},
+  pages         = {13-16},
+  address       = {Kyoto, Japan},
+  date-added    = {2019-11-19 14:27:30 +0100},
+  date-modified = {2019-11-19 14:28:50 +0100},
 }
 
-@book{Schildt-cpp2,
-author    = {Schildt, H.},
-title     = {C++ Die professionelle Referenz. IT-Studienausgabe},
-edition   = {2. ed.},
-publisher = {Mitp-Verlag},
-year      = {2007},
-editor    = {Riedhammer, K.},
+@InProceedings{TavakoliKolagari2006ProjectorientedReuse,
+  author        = {Ramin {Tavakoli Kolagari} and Fernando Porta, Nicolas},
+  title         = {Project-oriented Reuse Approaches: Copy-and-Paste or Software Product Line Engineering?},
+  booktitle     = {Proceedings of the Workshop on Learning Software Organisations and Requirements Engineering (LSO \& RE'06)},
+  year          = {2006},
+  month         = {March},
+  address       = {Hannover, Germany},
+  date-added    = {2019-11-19 14:26:30 +0100},
+  date-modified = {2019-11-19 14:27:22 +0100},
+}
+
+@InProceedings{Cuenot2007ManagingComplexityAutomotive,
+  author        = {Philippe Cuenot and DeJiu Chen and Sébastien Gérard and Henrik Lönn and Mark-Oliver Reiser and David Servat and Carl-Johan Sjöstedt and Ramin {Tavakoli Kolagari} and Martin Törngren and Matthias Weber},
+  title         = {Managing Complexity of Automotive Electronics Using the EAST-ADL},
+  booktitle     = {Proceedings of the 2nd International UML \& AADL Workshop (UML \& AADL'07)},
+  year          = {2007},
+  month         = {July},
+  address       = {Auckland},
+  date-added    = {2019-11-19 14:24:47 +0100},
+  date-modified = {2019-11-19 14:26:12 +0100},
+}
+
+@InProceedings{Reiser2007UnifiedFeatureModeling,
+  author        = {Mark-Oliver Reiser and Ramin {Tavakoli Kolagari} and Matthias Weber},
+  title         = {Unified Feature Modeling as a Basis for Managing Complex System Families},
+  booktitle     = {Proceedings of the First International Workshop on Variability Modelling of Software-intensive Systems (VAMOS'07)},
+  year          = {2007},
+  publisher     = {Lero Technical Report 2007-01},
+  month         = {January},
+  pages         = {79-86},
+  address       = {Limerick, Ireland},
+  date-added    = {2019-11-19 14:22:17 +0100},
+  date-modified = {2019-11-19 14:24:12 +0100},
+}
+
+@InProceedings{Espinoza2009HarmonizingMARTEEAST,
+  author        = {Huascar Espinoza and Sébastien Gérard and Henrik Lönn and Ramin {Tavakoli Kolagari}},
+  title         = {Harmonizing MARTE, EAST-ADL2, and AUTOSAR to Improve the Modelling of Automotive Systems},
+  booktitle     = {Proceedings of the 1st Workshop on the Definition, Evaluation, and Exploitation of Modelling and Computing Standards for Real-Time Embedded Systems (STANDRTS'09)},
+  year          = {2009},
+  month         = {June},
+  address       = {Dublin, Ireland},
+  date-added    = {2019-11-19 14:20:59 +0100},
+  date-modified = {2019-11-19 14:22:00 +0100},
+}
+
+@InProceedings{Blom2010ToolingstrategyEAST,
+  author        = {Hans Blom and Henrik Lönn and Ramin {Tavakoli Kolagari}},
+  title         = {On Tooling strategy for the EAST-ADL language},
+  booktitle     = {Proceedings of the 1st Workshop on Hands-on Platforms and tools for model-based engineering of Embedded Systems (HoPES'10), in conjunction with ECMFA 2010},
+  year          = {2010},
+  month         = {June},
+  pages         = {19-26},
+  address       = {Paris, France},
+  date-added    = {2019-11-19 14:19:51 +0100},
+  date-modified = {2019-11-19 14:20:47 +0100},
+}
+
+@InProceedings{Auernhammer2019AttacksMachineLearninga,
+  author        = {Katja Auernhammer and Ramin {Tavakoli Kolagari} and Markus Zoppelt},
+  title         = {Attacks on Machine Learning: Lurking Danger for Accountability},
+  booktitle     = {Proceedings of the AAAI Workshop on Artificial Intelligence Safety, co-located with the Thirty-Third AAAI Conference on Artificial Intelligence (AAAI 2019)},
+  year          = {2019},
+  month         = {January},
+  pages         = {9-18},
+  address       = {Honolulu, Hawaii},
+  date-added    = {2019-11-19 14:16:44 +0100},
+  date-modified = {2019-11-19 14:18:59 +0100},
+}
+
+@InProceedings{Omasreiter2003Zielundkundenorientierte,
+  author        = {Hannes Omasreiter and Ramin {Tavakoli Kolagari}},
+  title         = {Ziel- und kundenorientierte Anforderungserstellung mit Abstraktionsebenen als zentraler Erfolgsfaktor bei der Entwicklung von Kfz-Software},
+  booktitle     = {Proceedings der CONQUEST, Automation Days und EuroMotive},
+  year          = {2003},
+  month         = {September},
+  pages         = {229-239},
+  address       = {Nuremberg, Germany},
+  date-added    = {2019-11-19 14:14:50 +0100},
+  date-modified = {2019-11-19 14:16:34 +0100},
+}
+
+@InProceedings{Birla2004RequirementsModelingFramework,
+  author        = {Sushil Birla and Ramin {Tavakoli Kolagari}},
+  title         = {A Requirements Modeling Framework for High Integrity Software-Intensive Automotive Product Lines},
+  booktitle     = {Band 1 der Multikonferenz Wirtschaftsinformatik (MKWI'04)},
+  year          = {2004},
+  volume        = {1},
+  month         = {March},
+  pages         = {169-183},
+  date-added    = {2019-11-19 14:13:20 +0100},
+  date-modified = {2019-11-19 14:14:37 +0100},
+}
+
+@InProceedings{Puschnig2004Entwicklunginnovativereingebetteter,
+  author        = {Alexander Puschnig and Ramin {Tavakoli Kolagari}},
+  title         = {Entwicklung innovativer eingebetteter Systeme mit Experteneinbindung},
+  booktitle     = {9. Kongress Software-Qualitätsmanagement (SQM'04)},
+  year          = {2004},
+  month         = {April},
+  date-added    = {2019-11-19 14:12:12 +0100},
+  date-modified = {2019-11-19 14:12:55 +0100},
+}
+
+@InProceedings{Puschnig2004RequirementsEngineeringDevelopment,
+  author        = {Alexander Puschnig and Ramin {Tavakoli Kolagari}},
+  title         = {Requirements Engineering in the Development of Innovative Automotive Embedded Software Systems},
+  booktitle     = {Proceedings of the IEEE Joint International Requirements Engineering Conference (RE'04)},
+  year          = {2004},
+  number        = {IEEE Computer Society, Los Alamitos},
+  month         = {September},
+  pages         = {328-333},
+  address       = {Kyoto, Japan},
+  date-added    = {2019-11-19 14:10:36 +0100},
+  date-modified = {2019-11-19 14:11:52 +0100},
+}
+
+@InProceedings{TavakoliKolagari2007NeedExtendedVariability,
+  author        = {Ramin {Tavakoli Kolagari} and Mark-Oliver Reiser},
+  title         = {The Need for Extended Variability Models, Proceedings of the IPM International Symposium on Fundamentals of Software Engineering (FSEN'07)},
+  booktitle     = {Lecture Notes in Computer Science 4767},
+  year          = {2007},
+  month         = {April},
+  pages         = {129-143},
+  doi           = {https://doi.org/10.1007/978-3-540-75698-9_9},
+  address       = {Heidelberg, Germany},
+  bdsk-url-1    = {https://doi.org/10.1007/978-3-540-75698-9_9},
+  date-added    = {2019-11-19 14:06:02 +0100},
+  date-modified = {2019-11-19 14:07:36 +0100},
+}
+
+@InProceedings{Beuche2007UsingRequirementsManagement,
+  author        = {Danilo Beuche and Andreas Birk and Heinrich Dreier and Andreas Fleischmann and Heidi Galle and Gerald Heller and Dirk Janzen and Isabel John and Ramin {Tavakoli Kolagari} and von der Maßen, Thomas and Andreas Wolfram},
+  title         = {Using Requirements Management Tools in Software Product Line Engineering---The State of the Practice},
+  booktitle     = {Proceedings of the 11th International Software Product Line Conference (SPLC'07)},
+  year          = {2007},
+  month         = {September},
+  pages         = {84-96},
+  address       = {Kyoto, Japan},
+  date-added    = {2019-11-19 14:03:13 +0100},
+  date-modified = {2019-11-19 14:05:07 +0100},
+}
+
+@InProceedings{Reiser2007VariabilityModellingManifoldness,
+  author        = {Mark-Oliver Reiser and Ramin {Tavakoli Kolagari} and Matthias Weber},
+  title         = {Variability Modelling Manifoldness---Considering the Potential for Further Integration},
+  booktitle     = {Proceedings of the 2nd IFIP Central and East European Conference on Software Engineering Techniques (CEE-SET'07)},
+  year          = {2007},
+  pages         = {283-295},
+  doi           = {https://doi.org/10.1007/978-3-540-85279-7_23},
+  address       = {Poznan},
+  bdsk-url-1    = {https://doi.org/10.1007/978-3-540-85279-7_23},
+  date-added    = {2019-11-19 14:01:39 +0100},
+  date-modified = {2019-11-19 14:03:04 +0100},
+}
+
+@InProceedings{Cuenot2008DevelopingAutomotiveProducts,
+  author        = {Philippe Cuenot and Patrick Frey and Rolf Johansson and Henrik Lönn and Mark-Oliver Reiser and David Servat and Tavakoli Kolagari, Tavakoli and DeJiu Chen},
+  title         = {Developing Automotive Products Using the EAST-ADL2, an AUTOSAR Compliant Architecture Description Language},
+  booktitle     = {Proceedings of the 4th International Congress on Embedded Real Time Software (ERTS'08)},
+  year          = {2008},
+  month         = {January},
+  address       = {Toulouse, France},
+  date-added    = {2019-11-19 14:00:16 +0100},
+  date-modified = {2019-11-19 14:01:29 +0100},
+}
+
+@InProceedings{Mark-OliverReiser2009CompositionalVariabilityConcepts,
+  author        = {Mark-Oliver Reiser, and Ramin {Tavakoli Kolagari} and Matthias Weber},
+  title         = {Compositional Variability---Concepts and Patterns},
+  booktitle     = {Proceedings of the HICSS-42 Software Technology Minitrack Variability Management in Software-Intensive Systems (VaMiSIS'09)},
+  year          = {2009},
+  month         = {January},
+  doi           = {https://doi.org/10.1109/HICSS.2009.634},
+  address       = {Waikoloa},
+  bdsk-url-1    = {https://doi.org/10.1109/HICSS.2009.634},
+  date-added    = {2019-11-19 13:58:21 +0100},
+  date-modified = {2019-11-19 13:59:44 +0100},
+}
+
+@InProceedings{Cuenot2007EASTADLArchitecture,
+  author        = {Philippe Cuenot and Patrick Frey and Rolf Johansson and Henrik Lönn and Yiannis Papadopoulos and Mark-Oliver Reiser and Anders Sandberg and David Servat and Ramin {Tavakoli Kolagari} and Martin Törngren and Matthias Weber},
+  title         = {The EAST-ADL Architecture Description Language for Automotive Embedded Software, Chapter 11 of Model-Based Engineering of Embedded Real-Time Systems},
+  booktitle     = {Lecture Notes in Computer Science 6100, Revised Selected Papers},
+  year          = {2007},
+  editor        = {Holger Giese, Gabor Karsai, Edward Lee, Bernhard Rumpe, Bernhard Schätz},
+  publisher     = {Springer, Berlin},
+  month         = {November},
+  pages         = {297-308},
+  address       = {Dagstuhl Castle, Germany},
+  date-added    = {2019-11-19 13:54:37 +0100},
+  date-modified = {2019-11-19 13:57:56 +0100},
+}
+
+@InProceedings{Sandberg2010ModelbasedSafety,
+  author        = {Anders Sandberg and DeJiu Chen and Henrik Lönn and Rolf Johansson and Lei Feng and Martin Törngren and Sandra Torchiaro and Ramin {Tavakoli Kolagari} and Andreas Abele},
+  title         = {Model-based Safety Engineering of Interdependent Functions in Automotive Vehicles Using EAST-ADL2},
+  booktitle     = {Proceedings of the 29th International Conference on Computer Safety, Reliability and Security (SAFECOMP'10)},
+  year          = {2010},
+  month         = {September},
+  pages         = {332-346},
+  doi           = {https://doi.org/10.1007/978-3-642-15651-9_25},
+  address       = {Vienna, Austria},
+  bdsk-url-1    = {https://doi.org/10.1007/978-3-642-15651-9_25},
+  date-added    = {2019-11-19 13:52:14 +0100},
+  date-modified = {2019-11-19 13:54:04 +0100},
+}
+
+@InProceedings{Armengaud2011ModelbasedToolchain,
+  author        = {Eric Armengaud and Andreas Baumgart and Matthias Biehl and Dejiu Chen and Gerhard Griessnig and Christian Hein and Tom Ritter and Ramin {Tavakoli Kolagari} and Markus Zoier},
+  title         = {Model-based Toolchain for the Efficient Development of Safety-relevant Automotive Embedded Systems},
+  booktitle     = {Proceedings of the SAE 2011 World Congress \& Exhibition},
+  year          = {2011},
+  month         = {April},
+  doi           = {https://doi.org/10.4271/2011-01-0056},
+  address       = {Detroit, USA},
+  bdsk-url-1    = {https://doi.org/10.4271/2011-01-0056},
+  date-added    = {2019-11-19 13:45:12 +0100},
+  date-modified = {2019-11-19 13:47:10 +0100},
+}
+
+@InProceedings{Waegemann2016ModelsDependableHeterogenousa,
+  author        = {Tobias Wägemann and Tobias Langer and Jürgen Mottok and Lukas Osinski and Friedhelm Stappert and Ramin {Tavakoli Kolagari}},
+  title         = {Models for Dependable Heterogenous Multi- and Many-Core System Software Design Revisited},
+  booktitle     = {Proceedings of the FORMUS3IC-Workshop of Multi-Core Safe and Software-intensive Systems Improvement Community (ARCS 2016)},
+  year          = {2016},
+  month         = {April},
+  pages         = {1-8},
+  doi           = {https://ieeexplore.ieee.org/document/7499190},
+  address       = {Nuremberg, Germany},
+  bdsk-url-1    = {https://ieeexplore.ieee.org/document/7499190},
+  date-added    = {2019-11-19 13:39:34 +0100},
+  date-modified = {2019-11-19 13:41:13 +0100},
+}
+
+@InProceedings{TavakoliKolagari2016UtilizationEffectNarrativea,
+  author        = {Ramin {Tavakoli Kolagari} and Katja Auernhammer},
+  title         = {Utilization and Effect of Narrative Art in Advanced Software Engineering Education},
+  booktitle     = {Proceedings of the European Conference Software Engineering Education 2016},
+  year          = {2016},
+  month         = {July},
+  address       = {Seeon, Germany},
+  date-added    = {2019-11-19 13:38:06 +0100},
+  date-modified = {2019-11-19 13:39:12 +0100},
+}
+
+@InProceedings{Waegemann2018OptimalProductLinea,
+  author        = {Tobias Wägemann and Ramin {Tavakoli Kolagari} and Klaus Schmid},
+  title         = {Optimal Product Line Architectures for the Automotive Industry},
+  booktitle     = {Modellierung 2018},
+  year          = {2018},
+  editor        = {Schaefer, I., and Karagiannis, D. and Vogelsang, A. and Méndez, D. and Seidl, C.},
+  organization  = {Gesellschaft für Informatik},
+  publisher     = {Gesellschaft für Informatik},
+  month         = {February},
+  pages         = {119-134},
+  doi           = {http://dl.gi.de/handle/20.500.12116/14962},
+  bdsk-url-1    = {http://dl.gi.de/handle/20.500.12116/14962},
+  date-added    = {2019-11-19 13:31:55 +0100},
+  date-modified = {2019-11-19 13:34:14 +0100},
+}
+
+@InProceedings{Wagensveld2018IntraTaskParallelisma,
+  author        = {Remko van Wagensveld and Tobias Wägemann and Niklas Hehenkamp and Ramin {Tavakoli Kolagari} and Ulrich Margull and Ralph Mader},
+  title         = {Intra-Task Parallelism in Automotive Real-Time Systems},
+  booktitle     = {Proceedings of the 9th International Workshop on Programming Models and Applications for Multicores and Manycores 2018 (PMAM'18)},
+  year          = {2018},
+  editor        = {Quan Chen, Zhiyi Huang, and Pavan Balaji},
+  publisher     = {ACM, New York},
+  month         = {April},
+  pages         = {61-70},
+  doi           = {https://doi.org/10.1145/3178442.3178449},
+  address       = {Vienna, Austria},
+  bdsk-url-1    = {https://doi.org/10.1145/3178442.3178449},
+  date-added    = {2019-11-19 13:29:23 +0100},
+  date-modified = {2019-11-19 13:31:38 +0100},
+}
+
+@InProceedings{Zoppelt2018SAMSecurityAbstractiona,
+  author        = {Markus Zoppelt and Ramin {Tavakoli Kolagari}},
+  title         = {SAM: A Security Abstraction Model for Automotive Software Systems},
+  booktitle     = {Security and Safety Interplay of Intelligent Software Systems},
+  year          = {2018},
+  editor        = {Hamid B., Gallina B., Shabtai A., Elovici Y., Garcia-Alfaro J.},
+  volume        = {11552},
+  publisher     = {Springer, Cham},
+  month         = {September},
+  pages         = {59-74},
+  doi           = {https://doi.org/10.1007/978-3-030-16874-2_5},
+  address       = {Barcelona, Spain},
+  bdsk-url-1    = {https://doi.org/10.1007/978-3-030-16874-2_5},
+  date-added    = {2019-11-19 13:26:49 +0100},
+  date-modified = {2019-11-19 13:37:35 +0100},
+  keywords      = {CSITS 2018, ISSA 2018},
+}
+
+@InProceedings{Waegemann2019ExploringAutomotiveStakeholdera,
+  author        = {Tobias Wägemann and Ramin {Tavakoli Kolagari} and Klaus Schmid},
+  title         = {Exploring Automotive Stakeholder Requirements for Architecture Optimization Support},
+  booktitle     = {Proceedings of the International Conference on Software Architecture Companion(ICSA-C)},
+  year          = {2019},
+  publisher     = {IEEE},
+  month         = {March},
+  doi           = {https://doi.org/10.1109/ICSA-C.2019.00015},
+  address       = {Hamburg},
+  bdsk-url-1    = {https://doi.org/10.1109/ICSA-C.2019.00015},
+  date-added    = {2019-11-19 13:24:44 +0100},
+  date-modified = {2019-11-19 13:26:09 +0100},
+}
+
+@InProceedings{Zoppelt2019ModelingCloudAttacksa,
+  author        = {Markus Zoppelt and Ramin {Tavakoli Kolagari}},
+  title         = {Modeling Cloud Attacks with the Automotive Security Abstraction Model},
+  booktitle     = {Proceedings of the Tenth International Conference on Cloud Computing, GRIDs, and Virtualization},
+  year          = {2019},
+  month         = {April},
+  pages         = {67-72},
+  address       = {Venice, Italy},
+  date-added    = {2019-11-19 13:21:51 +0100},
+  date-modified = {2019-11-19 13:23:49 +0100},
+}
+
+@InProceedings{Waegemann2019ADOOPLACombiningProducta,
+  author        = {Tobias Wägemann and Ramin {Tavakoli Kolagari} and Klaus Schmid},
+  title         = {ADOOPLA - Combining Product-Line- and Product-Level Criteria in Multi-objective Optimization of Product Line Architectures},
+  booktitle     = {Lecture Notes in Computer Science},
+  year          = {2019},
+  editor        = {Bures T., Duchien L., Inverardi P},
+  volume        = {11681},
+  organization  = {Software Architecture. ECSA 2019, Paris, France},
+  publisher     = {Springer, Cham},
+  month         = {September},
+  doi           = {https://doi.org/10.1007/978-3-030-29983-5_9},
+  address       = {Paris, France},
+  bdsk-url-1    = {https://doi.org/10.1007/978-3-030-29983-5_9},
+  date-added    = {2019-11-19 13:15:04 +0100},
+  date-modified = {2019-11-19 13:24:09 +0100},
+}
+
+@InProceedings{Zoppelt2019WhatTodaysSeriousa,
+  author        = {Markus Zoppelt and Ramin {Tavakoli Kolagari}},
+  title         = {What Today's Serious Cyber Attacks on Cars Tell Us: Consequences for Automotive Security and Dependability},
+  year          = {2019},
+  publisher     = {Springer International Publishing},
+  month         = {October},
+  pages         = {270-285},
+  doi           = {https://doi.org/10.1007/978-3-030-32872-6_18},
+  address       = {Thessaloniki, Greece},
+  bdsk-url-1    = {https://doi.org/10.1007/978-3-030-32872-6_18},
+  date-added    = {2019-11-19 12:37:37 +0100},
+  date-modified = {2019-11-19 13:24:32 +0100},
+  journal       = {International Symposium on Model-Based Safety and Assessment},
+}
+
+@Article{Cuenot2008DevelopingAutomotiveProductsa,
+  author        = {Philippe Cuenot and Patrick Frey and Rolf Johansson and Henrik Lönn and Mark-Oliver Reiser and David Servat and Ramin {Tavakoli Kolagari} and DeJiu Chen},
+  title         = {Developing Automotive Products Using the EAST-ADL2, an AUTOSAR Compliant Architecture Description Language},
+  journal       = {Ingénieurs de l'Automobile},
+  year          = {2008},
+  number        = {793},
+  month         = {March-April},
+  pages         = {58 - 64},
+  url           = {http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Akth%3Adiva-81221},
+  bdsk-url-1    = {http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Akth%3Adiva-81221},
+  date-added    = {2019-09-19 11:56:07 +0200},
+  date-modified = {2019-09-19 12:09:50 +0200},
+  group         = {Société des Ingénieurs de l'Automobile},
+}
+
+@Article{Cuenot2009EngineeringSupportAutomotive,
+  author        = {Philippe Cuenot and Patrick Frey and Rolf Johansson and Henrik Lönn and David Servat and Ramin {Tavakoli Kolagari} and Martin Törngren and Matthias Weber},
+  title         = {Engineering Support for Automotive Embedded Systems beyond "AUTOSAR"},
+  journal       = {ATZautotechnology},
+  year          = {2009},
+  volume        = {9},
+  month         = {April-June},
+  pages         = {46 - 50},
+  doi           = {https://doi.org/10.1007/BF03247113},
+  bdsk-url-1    = {https://doi.org/10.1007/BF03247113},
+  date-added    = {2019-09-19 11:51:57 +0200},
+  date-modified = {2019-09-19 12:10:23 +0200},
+}
+
+@Article{Blom2016EASTADLArchitecture,
+  author        = {Hans Blom and De-Jiu Chen and Henrik Kaijser and Henrik Lönn and Yiannis Papadopoulos and Mark-Oliver Reiser and Ramin {Tavakoli Kolagari} and Sara Tucci},
+  title         = {EAST-ADL---An Architecture Description Language for Automotive Software-intensive Systems in the Light of Recent use and Research},
+  journal       = {International Journal of System Dynamics Applications (IJSDA).},
+  year          = {2016},
+  month         = {June},
+  doi           = {https://doi.org/10.4018/IJSDA.2016070101},
+  bdsk-url-1    = {https://doi.org/10.4018/IJSDA.2016070101},
+  date-added    = {2019-09-19 11:43:56 +0200},
+  date-modified = {2019-09-19 11:46:01 +0200},
+}
+
+@Article{TavakoliKolagari2016ModelbasedAnalysisa,
+  author        = {Ramin {Tavakoli Kolagari} and DeJiu Chen and Agnes Lanusse and Renato Librino and Henrik Lönn and Nidhal Mahmud and Chokri Mraidha and Mark-Oliver Reiser and Sandra Torchiaro and Sara Tucci-Piergiovanni and Tobias Wägemann and Nataliya Yakymets},
+  title         = {Model-based Analysis \& Engineering of Automotive Architectures with EAST-ADL: Revisited},
+  journal       = {International Journal of Conceptual Structures and Smart Applications (IJCSSA) 3 (2)},
+  year          = {2016},
+  month         = {May},
+  doi           = {https://doi.org/10.4018/IJCSSA.2015070103},
+  bdsk-url-1    = {https://doi.org/10.4018/IJCSSA.2015070103},
+  date-added    = {2019-09-19 11:40:03 +0200},
+  date-modified = {2019-09-19 11:46:33 +0200},
+}
+
+@Article{Wagensveld2019Evaluationmodelingsupercorea,
+  author        = {Remko van Wagensveld and Tobias Wägemann and Ralph Mader and Ramin {Tavakoli Kolagari} and Ulrich Margull},
+  title         = {Evaluation and modeling of the supercore parallelization pattern in automotive real-time systems},
+  journal       = {Parallel Computing},
+  year          = {2019},
+  volume        = {81},
+  month         = {January},
+  pages         = {122-130},
+  doi           = {https://doi.org/10.1016/j.parco.2018.12.004},
+  bdsk-url-1    = {https://doi.org/10.1016/j.parco.2018.12.004},
+  date-added    = {2019-09-19 11:24:06 +0200},
+  date-modified = {2019-09-19 11:46:52 +0200},
+  rating        = {0},
+}
+
+@InProceedings{Rosanowski2006DietracheoosophagealeErsatzstimme,
+  author    = {Frank Rosanowski and Tobias Bocklet and Maria Schuster and Ulrich Eysholdt and Hikmet Toy},
+  title     = {{Die tracheoösophageale Ersatzstimme: Stimmhandicap versus Krankheitsbewältigung}},
+  booktitle = {{Aktuelle phoniatrisch-pädaudiologische Aspekte 2006}},
+  year      = {2006},
+  editor    = {Manfred Gross and Friedrich E. Kruse},
+  volume    = {14},
+  location  = {Heidelberg},
+  address   = {Norderstedt},
+}
+
+@InProceedings{Toy2006DietracheoosophagealeErsatzstimme,
+  author    = {Hikmet Toy and Tobias Bocklet and Maria Schuster and Ulrich Eysholdt and Elmar Nöth and Frank Rosanowski},
+  title     = {{Die tracheoösophageale Ersatzstimme: objektive Messung mit dem Göttinger Heiserkeitsdiagramm}},
+  booktitle = {{Aktuelle phoniatrisch-pädaudiologische Aspekte 2006}},
+  year      = {2006},
+  editor    = {Manfred Gross and Friedrich E. Kruse},
+  volume    = {14},
+  location  = {Heidelberg},
+  pages     = {54--55},
+  address   = {Norderstedt},
+}
+
+@InProceedings{Bocklet2007TextindependentSpeaker,
+  author    = {Tobias Bocklet and Andreas Maier and Elmar Nöth},
+  title     = {{Text-independent Speaker Identification using Temporal Patterns}},
+  booktitle = {{Text, Speech and Dialogue}},
+  year      = {2007},
+  editor    = {Vaclav Matousek and Pavel Mautner},
+  volume    = {1},
+  series    = {{Lecture Notes of Artificial Intelligence}},
+  location  = {Pilsen, Tschechien},
+  isbn      = {3-540-74627-7},
+  pages     = {318--325},
+  address   = {Berlin},
+  edition   = {1},
+  issn      = {0302-9743},
+  keywords  = {Temporal Patterns; Speaker Recognition},
+}
+
+@InProceedings{Bocklet2008AgeDeterminationChildren,
+  author    = {Tobias Bocklet and Andreas Maier and Elmar Nöth},
+  title     = {{Age Determination of Children in Preschool and Primary School Age with GMM-Based Supervectors and Support Vector Machines/Regression}},
+  booktitle = {{Proceedings Text, Speech and Dialogue; 11th International Conference}},
+  year      = {2008},
+  editor    = {Petr Sojka and Ales Horak and Ivan Kopecek and Karel Pala},
+  volume    = {1},
+  series    = {{Lecture Notes in Artificial Intelligence}},
+  location  = {Brno, Czech Republic},
+  isbn      = {978-3-540-87390-7},
+  pages     = {253--260},
+  address   = {Heidelberg},
+  issn      = {0302-9743},
+}
+
+@InProceedings{Haderlein2008Textbasedvs.,
+  author    = {Tino Haderlein and Tobias Bocklet and Elmar Nöth and Frank Rosanowski},
+  title     = {{Text-based vs. Vowel-based Automatic Evaluation of Tracheoesophageal Substitute Voice}},
+  booktitle = {{Proceedings of IWSSIP 2008}},
+  year      = {2008},
+  editor    = {Gregor Rozinaj and Jozef Cepko and Peter Truchly and Jan Vrabec and Juraj Vojtko},
+  volume    = {1},
+  location  = {Bratislava, Slowakei},
+  isbn      = {978-80-227-2856-0},
+  pages     = {295--298},
+  address   = {Bratislava},
+  edition   = {150},
+  keywords  = {speech; language},
+}
+
+@InProceedings{Bocklet2008AgeGenderRecognition,
+  author    = {Tobias Bocklet and Andreas Maier and Josef Bauer and Felix Burkhardt and Elmar Nöth},
+  title     = {{Age and Gender Recognition for Telephone Applications Based on GMM Supervectors and Support Vector Machines}},
+  booktitle = {{Proceedings of the International Conference on Acoustics, Speech, and Signal Processing (ICASSP)}},
+  year      = {2008},
+  editor    = {IEEE Computer Society Press},
+  volume    = {1},
+  location  = {Las Vegas},
+  isbn      = {1-4244-1484-9},
+  pages     = {1605--1608},
+  keywords  = {age classification; gender classification},
+}
+
+@InProceedings{Maier2009VerstandlichkeitsanalysebeiKindern,
+  author    = {Andreas Maier and Tobias Bocklet and Marcello Scipioni and Elmar Nöth and Ulrich Eysholdt and Maria Schuster},
+  title     = {{Verständlichkeitsanalyse bei Kindern mit Lippen-Kiefer-Gaumenspalten auf Deutsch und Italienisch mittels automatischer Spracherkennung}},
+  booktitle = {{Aktuelle phoniatrisch-pädaudiologische Aspekte 2009}},
+  year      = {2009},
+  editor    = {Manfred Gross and Antoinette am Zehnhoff-Dinnesen},
+  volume    = {17},
+  location  = {Leipzig, Deutschland},
+  pages     = {207--208},
+  address   = {Möchengladbach},
+  edition   = {1},
+  keywords  = {Automatic Evaluation, Pathologic Speech, Children, Cleft Lip and Palate},
+}
+
+@InProceedings{Maier2009TowardsAutomaticClassification,
+  author    = {Andreas Maier and Tobias Bocklet and Florian Hönig and Stefanie Horndasch and Elmar Nöth},
+  title     = {{Towards the Automatic Classification of Reading Disorders in Continuous Text Passages}},
+  booktitle = {{Text, Speech and Dialogue}},
+  year      = {2009},
+  editor    = {Vaclav Matousek and Pavel Mautner},
+  volume    = {1},
+  series    = {{Lecture Notes of Artificial Intelligence}},
+  location  = {Pilsen, Tschechien},
+  isbn      = {978-3-642-04207-2},
+  pages     = {282--290},
+  address   = {Berlin},
+  edition   = {1},
+  keywords  = {Automatic Assessment; Reading Disorder; Speech Recognition},
+}
+
+@InProceedings{Bocklet2009TowardsLanguageindependent,
+  author    = {Tobias Bocklet and Andreas Maier and Korbinian Riedhammer and Elmar Nöth},
+  title     = {{Towards a Language-independent Intelligibility Assessment o Children with Cleft Lip and Palate}},
+  booktitle = {{Proceedings of WOCCI 2009}},
+  year      = {2009},
+  editor    = {WOCCI},
+  volume    = {1},
+  location  = {Cambridge, MA, USA},
+  edition   = {1},
+  issn      = {1990-9772},
+  keywords  = {speaker recognition; vocal effort; speaking style; intrinsic variation; furtive speech; interview speech; read speech; oration},
+}
+
+@InProceedings{Kajarekar2009SRINIST2008,
+  author    = {Sachin S. Kajarekar and Nicolas Scheffer and Martin Graciarena and Elizabeth Shriberg and Andreas Stolcke and Luciana Ferrer and Tobias Bocklet},
+  title     = {{The SRI NIST 2008 Speaker Recognition Evaluation System}},
+  booktitle = {{Proceedings of the International Conference on Acoustics, Speech, and Signal Processing (ICASSP)}},
+  year      = {2009},
+  editor    = {ICASSP},
+  location  = {Taipei, Taiwan},
+  isbn      = {978-1-4244-2354-5},
+  pages     = {4205--4208},
+  keywords  = {Speaker recognitio; higher-level features; GMMs; cepstral features; MFCCs; syllables},
+}
+
+@InProceedings{Bocklet2009SpeakerRecognitionUsing,
+  author    = {Tobias Bocklet and Elizabeth Shriberg},
+  title     = {{Speaker Recognition Using Syllable-Based Constraints for Cepstral Frame Selection}},
+  booktitle = {{International Conference on Acoustics, Speech, and Signal Processing (ICASSP)}},
+  year      = {2009},
+  editor    = {ICASSP},
+  location  = {Taipei, Taiwan},
+  isbn      = {978-1-4244-2354-5},
+  pages     = {4525--4528},
+  keywords  = {Speaker recognition; higher-level features; GMMs; cepstral features; MFCCs; syllables},
+}
+
+@InProceedings{Maier2009AutomaticClassificationReading,
+  author    = {Andreas Maier and Caroline Schafflhuber and Tobias Bocklet and Florian Hönig and Oliver Kratz and Stefanie Horndasch and Elmar Nöth and Gunther Moll},
+  title     = {{On the Automatic Classification of Reading Disorders}},
+  booktitle = {{Pattern Recognition in Information Systems}},
+  year      = {2009},
+  editor    = {Ana Fred},
+  volume    = {1},
+  location  = {Mailand, Italien},
+  isbn      = {978-989-8111-89-0},
+  pages     = {18--28},
+  address   = {Lisbon, Portugal},
+  edition   = {1},
+  keywords  = {Speech Intelligibility; Pathologic Speech; Reading Disorders},
+}
+
+@InProceedings{Haderlein2009Objectivevs.Subjective,
+  author    = {Tino Haderlein and Tobias Bocklet and Andreas Maier and Elmar Nöth and Christian Knipfer and Florian Stelzle},
+  title     = {{Objective vs. Subjective Evaluation of Speakers with and without Complete Dentures}},
+  booktitle = {{Proc. Text, Speech and Dialogue; 12th International Conference}},
+  year      = {2009},
+  editor    = {Vaclav Matousek and Pavel Mautner},
+  volume    = {1},
+  series    = {{Lecture Notes in Artificial Intelligence}},
+  location  = {Pilsen, Czech Republic},
+  isbn      = {978-3-642-04207-2},
+  pages     = {170--177},
+  address   = {Berlin},
+  issn      = {0302-9743},
+  keywords  = {Spracherkennung},
+}
+
+@InProceedings{Bocklet2009EVALUATIONASSESSMENTSPEECH,
+  author    = {Tobias Bocklet and Tino Haderlein and Florian Hönig and Frank Rosanowski and Elmar Nöth},
+  title     = {{EVALUATION AND ASSESSMENT OF SPEECH INTELLIGIBILITY ON PATHOLOGIC VOICES BASED UPON ACOUSTIC SPEAKER MODELS}},
+  booktitle = {{Proceedings of the 3rd Advanced Voice Function Assessment International Workshop}},
+  year      = {2009},
+  editor    = {3rd Advanced Voice Function Assessment International Workshop},
+  location  = {Madrid, Spain},
+  isbn      = {978-84-95227-65-2},
+  pages     = {89--92},
+  keywords  = {Gaussian Mixture Models; Support Vector Machines; Acoustic Analysis; Pathologic Voices},
+}
+
+@InProceedings{Graciarena2009FeatureBasedChannel,
+  author    = {Martin Graciarena and Tobias Bocklet and Elizabeth Shriberg and Andreas Stolcke and Sachin Kajarekar},
+  title     = {{Feature-Based and Channel-Based Analyses of Intrinsic Variability in Speaker Verification}},
+  booktitle = IS,
+  year      = {2009},
+  volume    = {1},
+  location  = {Brighton, UK},
+  pages     = {2015--2018},
+  edition   = {1},
+  issn      = {1990-9772},
+  keywords  = {speaker recognition; vocal effort; speaking style; intrinsic variation;furtive speech; interview speech; read speech; oration},
+}
+
+@InProceedings{Stelzle2009AutomaticObjectiveAnalysis,
+  author    = {Florian Stelzle and Maria Schuster and Andreas Maier and Tobias Bocklet and Elmar Nöth and Martin Seiß and Friedrich Wilhelm Neukam and Emeka Nkenke},
+  title     = {{Automatic Objective Analysis of Speech Disorders on Patients with Oral Squamous Cell Carcinoma}},
+  booktitle = {{3rd International IZKF-Symposium}},
+  year      = {2009},
+  location  = {Bad Staffelstein, Germany},
+}
+
+@InProceedings{Bocklet2009AutomaticScreeningTest,
+  author    = {Tobias Bocklet and Cordula Winterholler and Andreas Maier and Maria Schuster and Elmar Nöth},
+  title     = {{An Automatic Screening Test for Preschool Children: Theory and Data Collection}},
+  booktitle = {{Proceedings of WOCCI 2009}},
+  year      = {2009},
+  editor    = {WOCCI},
+  volume    = {1},
+  location  = {Cambridge, MA, USA},
+  edition   = {1},
+  issn      = {1990-9772},
+  keywords  = {speaker recognition; vocal effort; speaking style; intrinsic variation; furtive speech; interview speech; read speech; oration},
+}
+
+@InProceedings{Haderlein2009AutomatischeStimmanalysenach,
+  author    = {Tino Haderlein and Tobias Bocklet and Florian Hönig and Elmar Nöth and Frank Rosanowski},
+  title     = {{Automatische Stimmanalyse nach Larynxteilresektion mithilfe akustischer Sprechermodellierung}},
+  booktitle = {{Aktuelle phoniatrisch-pädaudiologische Aspekte 2009}},
+  year      = {2009},
+  editor    = {Manfred Gross and Antoinette am Zehnhoff-Dinnesen},
+  volume    = {1},
+  series    = {{Aktuelle phoniatrisch-pädaudiologische Aspekte}},
+  location  = {Düsseldorf},
+  isbn      = {3-938975-32-6},
+  pages     = {139--141},
+  address   = {Mönchengladbach},
+  keywords  = {Spracherkennung},
+}
+
+@InProceedings{Bocklet2010SprachenunabhangigeVerstandlichkeitsanalysebei,
+  author    = {Tobias Bocklet and Maria Schuster and Elmar Nöth and Ulrich Eysholdt},
+  title     = {{Sprachenunabhängige Verständlichkeitsanalyse bei Kindern mit orofazialen Spaltfehlbildungen auf Deutsch und Italienisch mittels akustischer Modellierung}},
+  booktitle = {{Aktuelle phoniatrisch-pädaudiologische Aspekte 2010}},
+  year      = {2010},
+  editor    = {Manfred Gross and Antoinette am Zehnhoff-Dinnesen},
+  volume    = {18},
+  location  = {Aachen, Germany},
+  pages     = {165--167},
+  address   = {Warendorf},
+}
+
+@InProceedings{Bocklet2010ImprovementSpeechRecognizer,
+  author    = {Tobias Bocklet and Andreas Maier and Ulrich Eysholdt and Elmar Nöth},
+  title     = {{Improvement of a Speech Recognizer for Standardized Medical Assessment of Children's Speech by Integration of Prior Knowledge}},
+  booktitle = {{Proc. 2nd IEEE Workshop on Spoken Language Technologies (SLT 2010)}},
+  year      = {2010},
+  editor    = {IEEE},
+  location  = {Berkeley, California, USA},
+  isbn      = {978-1-4244-7902-3},
+  pages     = {247--252},
+  keywords  = {Speech Recognition; Children's Speech},
+}
+
+@InProceedings{Bocklet2010Automaticspeechrecognition,
+  author    = {Tobias Bocklet and Florian Stelzle and Tino Haderlein and Elmar Nöth},
+  title     = {{Automatic speech recognition for edentulous speakers with insufficient dentures}},
+  booktitle = {{Proceedings of the 9th International Conference on Advances in Quantitative Laryngology, Voice and Speech Research}},
+  year      = {2010},
+  editor    = {Michael Doellinger},
+  volume    = {1},
+  location  = {Erlangen, Germany},
+  edition   = {1},
+}
+
+@InProceedings{Zaeh2010ClapYourHands,
+  author    = {Uwe Zaeh and Korbinian Riedhammer and Tobias Bocklet and Elmar Nöth},
+  title     = {{Clap Your Hands! Calibrating Spectral Subtraction for Dereverberation}},
+  booktitle = {{Proceedings of the International Conference on Acoustics, Speech, and Signal Processing (ICASSP)}},
+  year      = {2010},
+  editor    = {IEEE},
+  location  = {Dallas, TX, USA},
+  isbn      = {978-1-4244-4296-6},
+  pages     = {4226--4229},
+  issn      = {1520-6149},
+  keywords  = {robustness; speech recognition; reverberation},
+}
+
+@InProceedings{Bocklet2010AutomaticDetectionEvaluation,
+  author    = {Tobias Bocklet and Florian Hönig and Tino Haderlein and Florian Stelzle and Christian Knipfer and Elmar Nöth},
+  title     = {{Automatic Detection and Evaluation of Edentulous Speakers with Insufficient Dentures}},
+  booktitle = {{Proceedings of the 13th International Conference on Text, Speech and Dialogue}},
+  year      = {2010},
+  editor    = {Petr Sojka and Ales Horak and Ivan Kopecek},
+  volume    = {6231},
+  series    = {{Lecture Notes in Artificial Intelligence}},
+  location  = {Brno, Czech Republic},
+  address   = {Heidelberg, Berlin},
+  issn      = {0302-9743},
+}
+
+@InProceedings{Bocklet2010AgeGenderRecognition,
+  author    = {Tobias Bocklet and Georg Stemmer and Viktor Zeissler and Elmar Nöth},
+  title     = {{Age and Gender Recognition Based on Multiple Systems - Early vs. Late Fusion}},
+  booktitle = IS,
+  year      = {2010},
+  editor    = {ISCA},
+  location  = {Makuhari, Chiba, Japan},
+  issn      = {1990-9772},
+  keywords  = {acoustic analysis; classification; Gaussian mixture models},
+}
+
+@InProceedings{Bocklet2011VoiceAssessmentSpeakers,
+  author    = {Tobias Bocklet and Elmar Nöth and Georg Stemmer},
+  title     = {{Voice Assessment of Speakers with Laryngeal Cancer by Glottal Excitation Modeling Based on a 2-Mass Model}},
+  booktitle = {{Proceedings of TSD2011}},
+  year      = {2011},
+  editor    = {I. Habernal and Matousek,V.},
+  series    = {{Lecture Notes in Artificial Intelligence}},
+  location  = {Pilsen, Czech Republic},
+  isbn      = {978-3-642-23537-5},
+  pages     = {348--355},
+  address   = {Berlin / Heidelberg},
+}
+
+@InProceedings{Steidl2011JavaVisualSpeecha,
+  author    = {Stefan Steidl and Korbinian Riedhammer and Tobias Bocklet and Florian Hönig and Elmar Nöth},
+  title     = {{Java Visual Speech Components for Rapid Application Development of GUI based Speech Processing Applications}},
+  booktitle = IS,
+  year      = {2011},
+  editor    = {ISCA},
+  location  = {Florenz, Italien},
+  pages     = {3257--3260},
+  issn      = {1990-9772},
+}
+
+@InProceedings{Middag2011Combiningphonologicalacoustic,
+  author    = {Catherine Middag and Tobias Bocklet and Jean-Pierre Martens and Elmar Nöth},
+  title     = {{Combining phonological and acoustic ASR-free features for pathological speech intelligibility assessment}},
+  booktitle = {{Proceedings of the 12th Annual Conference of the International Speech Communication Association}},
+  year      = {2011},
+  editor    = {ISCA},
+  location  = {Florence, Italy},
+  pages     = {3005--3008},
+}
+
+@InProceedings{Riedhammer2011Compensationextrinsicvariability,
+  author    = {Korbinian Riedhammer and Tobias Bocklet and Elmar Nöth},
+  title     = {{Compensation of extrinsic variability in speaker verification systems on simulated skype and hf channel data}},
+  booktitle = {{Proceedings of the International Conference on Acoustics, Speech, and Signal Processing (ICASSP)}},
+  year      = {2011},
+  editor    = {IEEE},
+  volume    = {1},
+  location  = {Prague, Czech Republic},
+  isbn      = {978-1-4577-0537-3},
+  pages     = {4840--4843},
+  edition   = {1},
+}
+
+@InProceedings{Bocklet2011DetectionPersonsParkinsons,
+  author    = {Tobias Bocklet and Elmar Nöth and Georg Stemmer and Hana Ruzickova and Jan Rusz},
+  title     = {{Detection of Persons with Parkinson’s Disease by Acoustic, Vocal, and Prosodic Analysis}},
+  booktitle = ASRU,
+  year      = {2011},
+  editor    = {IEEE Signal Processing Society},
+  location  = {Big Island, Hawaii, USA},
+  isbn      = {978-1-4673-0366-8},
+  pages     = {478--483},
+}
+
+@InProceedings{Hagen2011Vergleichunterschiedlicherauditiven,
+  author    = {Magdalena Hagen and Tobias Bocklet and Ulrich Eysholdt},
+  title     = {{Vergleich unterschiedlicher auditiven Analysen bei Kindern mit orofazialen Spaltfehlbildungen auf Lautebene}},
+  booktitle = {{Aktuelle phoniatrisch-pädaudiologische Aspekte}},
+  year      = {2011},
+  editor    = {Michael Groß and A. am Zehnhoff-Dinnesen},
+  volume    = {19},
+  location  = {Zürich, Schweiz},
+  isbn      = {978-3-00-032642-4},
+  pages     = {79--81},
+  address   = {Warendorf, Germany},
+}
+
+@InProceedings{Valentini-Botinhao2012AutomaticDetectionSigmatism,
+  author    = {Cassia Valentini-Botinhao and Sabine Degenkolb-Weyers and Andreas Maier and Elmar Nöth and Ulrich Eysholdt and Tobias Bocklet},
+  title     = {{Automatic Detection of Sigmatism in Children}},
+  booktitle = {{WOCCI 2012 - Workshop on Child, Computer and Interaction}},
+  year      = {2012},
+  editor    = {ISCA},
+  location  = {Portland, Oregon, USA},
+  pages     = {1--4},
+}
+
+@InProceedings{Hoenig2012AutomaticAssessmentNona,
+  author    = {Florian Hönig and Tobias Bocklet and Korbinian Riedhammer and Anton Batliner and Elmar Nöth},
+  title     = {{The Automatic Assessment of Non-native Prosody: Combining Classical Prosodic Analysis with Acoustic Modelling}},
+  booktitle = {{Proceedings of the 13th Annual Conference of the International Speech Communication Association}},
+  year      = {2012},
+  editor    = {ISCA},
+  location  = {Portland Oregon, USA},
+}
+
+@InProceedings{Schuller2012INTERSPEECH2012Speaker,
+  author    = {Björn Schuller and Stefan Steidl and Anton Batliner and Elmar Nöth and Alessandro Vinciarelli and Felix Burkhardt and Rob van Son and Felix Weninger and Florian Eyben and Tobias Bocklet and Gelareh Mohammadi and Benjamin Weiss},
+  title     = {{The INTERSPEECH 2012 Speaker Trait Challenge}},
+  booktitle = IS,
+  year      = {2012},
+  editor    = {ISCA},
+  location  = {Portland, OR, U.S.A.},
+  keywords  = {computational paralinguistics; speaker traits; personality; likability; pathology},
+}
+
+@InProceedings{Riedhammer2012RevisitingSemiContinuousa,
+  author    = {Korbinian Riedhammer and Tobias Bocklet and Arnab Ghoshal and Daniel Povey},
+  title     = {{Revisiting Semi-Continuous Hidden Markov Models}},
+  booktitle = {{Proceedings of the International Conference on Acoustics, Speech, and Signal Processing (ICASSP)}},
+  year      = {2012},
+  editor    = {IEEE},
+  location  = {Kyoto, Japan},
+  pages     = {4721--4724},
+}
+
+@InProceedings{Riedhammer2013LMELecturesMultimediaCorpusa,
+  author    = {Korbinian Riedhammer and Martin Gropp and Tobias Bocklet and Florian Hönig and Elmar Nöth and Stefan Steidl},
+  title     = {{LMELectures: a Multimedia Corpus of Academic Spoken English}},
+  booktitle = {{Proceedings of the First Workshop on Speech, Language and Audio in Multimedia}},
+  year      = {2013},
+  editor    = {IEEE SIG on Audio and Speech Processing in Multimedia ISCA SIG on Speech and Language in Multimedia},
+  location  = {Marseille, France},
+  pages     = {102--107},
+  keywords  = {corpus description; academic spoken English; e-learning},
+}
+
+@InProceedings{Bocklet2013AutomaticEvaluationParkinsons,
+  author    = {Tobias Bocklet and Stefan Steidl and Elmar Nöth and Sabine Skodda},
+  title     = {{Automatic Evaluation of Parkinson's Speech - Acoustic, Prosodic and Voice Related Cues}},
+  booktitle = IS,
+  year      = {2013},
+  editor    = {ISCA},
+  location  = {Lyon, France},
+  pages     = {1149--1153},
+  keywords  = {Parkinson's disease; pathological speech; speech analysis},
+}
+
+@InProceedings{Riedhammer2014SemiAutomaticCalibrationa,
+  author    = {Korbinian Riedhammer and Tobias Bocklet and Juan Rafael Orozco-Arroyave and Elmar Nöth},
+  title     = {{Semi-Automatic Calibration for Dereverberation by Spectral Subtraction for Continuous Speech Recognition}},
+  booktitle = {{Proceedings of the 11th ITG Speech Communication Symposium}},
+  year      = {2014},
+  editor    = {Berlin VDE VERLAG GMBH},
+  location  = {Erlangen, Germany},
+  isbn      = {978-3-8007-3640-9},
+  pages     = {1--4},
+  address   = {Berlin, Germany},
+}
+
+@InProceedings{Hoenig2014Aremenmore,
+  author    = {Florian Hönig and Anton Batliner and Tobias Bocklet and Georg Stemmer and Elmar Nöth and Sebastian Schnieder and Jarek Krajewski},
+  title     = {{Are men more sleepy than women or does it only look like - Automatic analysis of sleepy speech}},
+  booktitle = ICASSP,
+  year      = {2014},
+  editor    = {IEEE},
+  location  = {Florenz, Italien},
+}
+
+@InProceedings{Poltauer2016Speechproductionquality,
+  author    = {Daniel Poltauer and Nicole Freimann and Maike Neuling and Tobias Bocklet and Elmar Nöth and John-Martin Hempel and Maria Schuster},
+  title     = {{Speech production quality and speech perception of adult cochlea implant users}},
+  booktitle = {{CI 2016, Proceedings}},
+  year      = {2016},
+  volume    = {14},
+}
+
+@TechReport{Cernak2016impactnonmodal,
+  author = {Milas Cernak and Elmar Nöth and Frank Rudzicz and Heidi Christensen and Juan Rafael Orozco-Arroyave and Raman Arora and Tobias Bocklet and Hamidreza Chinaei and Julius Hannink and Phani Sankar Nidadavolu},
+  title  = {On the impact of non-modal phonation on phonological features},
+  year   = {2016},
+}
+
+@InProceedings{Vasquez-Correa2017MultiviewRepresentation,
+  author    = {Juan Camilo Vasquez-Correa and Juan Ravael Orozco-Arroyave and Raman Arora and Elmar Nöth and Najim Dehak and Heidi Christensen and Frank Rudzicz and Tobias Bocklet and Milos Cernak and Hamidreza Chinaei and Phani Sankar Nidadavolu and Hannink, J. and Yancheva, M. and Vann, A. and Vogler, N.},
+  title     = {{Multi-view Representation Learning Via GCCA for Multimodal Analysis of Parkinson's Disease}},
+  booktitle = ICASSP,
+  year      = {2017},
+}
+
+@InProceedings{Cernak2017ImpactNonmodal,
+  author    = {Cernak, Milos and Nöth, Elmar and Rudzicz, Frank and Christensen, Heidi and Orozco-Arroyave, Juan Rafael and Arora, Raman and Bocklet, Tobias and Chinaei, Hamidreza and Hannink, Julius and Nidadavolu, Phani Sankar and Vasquez, Juan Camilo and Yancheva, Maria and Vann, Alyssa and Vogler, Nikolai},
+  title     = {{On the Impact of Non-modal Phonation On Phonological Features}},
+  booktitle = ICASSP,
+  year      = {2017},
+}
+
+@InProceedings{Stemmer2017SpeechRecognitionUnderstanding,
+  author    = {Georg Stemmer and Munir Georges and Joachim Hofer and Piotr Rozen and Josef G. Bauer and Jakub Nowicki and Tobias Bocklet and Hannah R. Colett and Ohad Falik and Michael Deisher and Sylvia J. Downing},
+  title     = {Speech Recognition and Understanding on Hardware-Accelerated DSP},
+  booktitle = IS,
+  year      = {2017},
+}
+
+@InProceedings{Huang2019IntelFarField,
+  author  = {Huang, Jonathan and Bocklet, Tobias},
+  title   = {Intel Far-Field Speaker Recognition System for VOiCES Challenge 2019},
+  booktitle = IS,
+  year    = {2019},
+  pages   = {2473--2477},
+}
+
+@InProceedings{Georges2019UltraCompactNLU,
+  author  = {Georges, Munir and Czarnowski, Krzysztof and Bocklet, Tobias},
+  title   = {Ultra-Compact NLU: Neuronal Network Binarization as Regularization},
+  journal = IS,
+  year    = {2019},
+  pages   = {809--813},
+}
+
+@Article{Maier2009Automaticdetectionarticulation,
+  author    = {Andreas Maier and Florian Hönig and Tobias Bocklet and Elmar Nöth and Florian Stelzle and Emeka Nkenke and Maria Schuster},
+  title     = {{Automatic detection of articulation disorders in children with cleft lip and palate}},
+  journal   = {Journal of the Acoustical Society of America},
+  year      = {2009},
+  volume    = {126},
+  number    = {5},
+  pages     = {2589--2602},
+  bibsource = {UnivIS, http://univis.uni-erlangen.de/prg?search=publications&id=90999511&show=elong},
+}
+
+@Article{Bocklet2009AutomaticEvaluationTracheoesophageal,
+  author    = {Tobias Bocklet and Hikmet Toy and Elmar Nöth and Maria Schuster and Ulrich Eysholdt and Frank Rosanowski and Frank Gottwald and Tino Haderlein},
+  title     = {{Automatic Evaluation of Tracheoesophageal Substitute Voice: Sustained Vowel versus Standard Text}},
+  journal   = {Folia Phoniatrica et Logopaedica (Folia Phoniatr Logop)},
+  year      = {2009},
+  volume    = {61},
+  number    = {2},
+  pages     = {112--116},
+  bibsource = {UnivIS, http://univis.uni-erlangen.de/prg?search=publications&id=90982317&show=elong},
+}
+
+@Article{Sambale2010SprachverstandlichkeitundKrankheitsverarbeitung,
+  author    = {Maria Sambale and Maria Schuster and Tobias Bocklet and Andreas Maier and Ulrich Eysholdt and Anika Ströbele and Florian Stelzle},
+  title     = {{Sprachverständlichkeit und Krankheitsverarbeitung nach der Therapie von Mundhöhlenkarzinomen}},
+  journal   = {Laryngo-Rhino-Otologie},
+  year      = {2010},
+  volume    = {90},
+  pages     = {151--156},
+  bibsource = {UnivIS, http://univis.uni-erlangen.de/prg?search=publications&id=91031210&show=elong},
+}
+
+@Article{Stelzle2010Automaticcomputerbased,
+  author    = {Florian Stelzle and Biljana Ugrinovic and Christian Knipfer and Tobias Bocklet and Elmar Nöth and Maria Schuster and Stefan Eitner and Martin Seiss and Emeka Nkenke},
+  title     = {{Automatic, computer-based analysis of speech intelligibility on edentulous patients with and without complete dentures - preliminary results}},
+  journal   = {Journal of Oral Rehabilitation},
+  year      = {2010},
+  volume    = {37},
+  number    = {3},
+  pages     = {209--216},
+  bibsource = {UnivIS, http://univis.uni-erlangen.de/prg?search=publications&id=91081431&show=elong},
+}
+
+@Article{Stelzle2011AutomaticQuantificationSpeech,
+  author  = {Florian Stelzle and Andreas Maier and Elmar Nöth and Tobias Bocklet and Christian Knipfer and Maria Schuster and Friedrich Wilhelm Neukam and Emeka Nkenke},
+  title   = {{Automatic Quantification of Speech Intelligibility in Patients after Treatment for Oral Squamous Cell Carcinoma}},
+  journal = {Journal of Oral and Maxillofacial Surgery},
+  year    = {2011},
+  volume  = {69},
+  pages   = {1493--1500},
+}
+
+@Article{Noeth2011AutomaticEvaluationDysarthric,
+  author  = {Elmar Nöth and Andreas Maier and Arnd Gebhard and Tobias Bocklet and Wilfried Schupp and Maria Schuster and Tino Haderlein},
+  title   = {{Automatic Evaluation of Dysarthric Speech and Telemedical Use in the Therapy}},
+  journal = {The Phonetician},
+  year    = {2011},
+  volume  = {103},
+  number  = {1},
+  pages   = {75--87},
+}
+
+@Article{Bocklet2012AutomaticIntelligibilityAssessmenta,
+  author  = {Tobias Bocklet and Korbinian Riedhammer and Elmar Nöth and Ulrich Eysholdt},
+  title   = {{Automatic Intelligibility Assessment of Speakers After Laryngeal Cancer by Means of Acoustic Modeling}},
+  journal = {Journal of Voice},
+  year    = {2012},
+  volume  = {26},
+  pages   = {390--397},
+}
+
+@Article{Schuster2012Automaticallyevaluateddegree,
+  author  = {Maria Schuster and Andreas Maier and Tobias Bocklet and Emeka Nkenke and Alexandra Holst and Ulrich Eysholdt and Florian Stelzle},
+  title   = {{Automatically evaluated degree of intelligibility of children with different cleft type from preschool and elementary school measured by automatic speech recognition}},
+  journal = {International Journal of Pediatric Otorhinolaryngology},
+  year    = {2012},
+  volume  = {76},
+  pages   = {362--369},
+}
+
+@Article{Knipfer2012SpeechIntelligibilityEnhancement,
+  author  = {Christian Knipfer and Tobias Bocklet and Elmar Nöth and Maria Schuster and Biljana Sokol and Stephan Eitner and Emeka Nkenke and Florian Stelzle},
+  title   = {{Speech Intelligibility Enhancement Through Maxillary Dental Rehabilitation with Telescopic Prostheses and Complete Dentures: A Prospective Study Using Automatic, Computer-Based Speech Analysis}},
+  journal = {The International Journal of Prosthodontics},
+  year    = {2012},
+  volume  = {25},
+  pages   = {24--32},
+}
+
+@Article{Stelzle2013Factorsinfluencingrelative,
+  author  = {Florian Stelzle and Christian Knipfer and Maria Schuster and Tobias Bocklet and Elmar Nöth and W. Adler and L. Schempf and P. Vieler and M. Riemann and F.W. Neukam and Emeka Nkenke},
+  title   = {{Factors influencing relative speech intelligibility in patients with oral squamous cell carcinoma: a prospective study using automatic, computer-based speech analysis}},
+  journal = {International Journal of Oral and Maxillofacial Surgery},
+  year    = {2013},
+  volume  = {42},
+  pages   = {1377--1384},
+}
+
+@Article{Knipfer2014Speechintelligibilityenhancement,
+  author  = {Christian Knipfer and M Riemann and Tobias Bocklet and Elmar Nöth and Maria Schuster and Biljana Sokol and Stephan Eitner and Emeka Nkenke and Florian Stelzle},
+  title   = {{Speech intelligibility enhancement after maxillary denture treatment and its impact on quality of life}},
+  journal = {The International Journal of Prosthodontics},
+  year    = {2014},
+  volume  = {27},
+  pages   = {61--69},
+}
+
+@Article{Schulz2014Validationautomaticspeech,
+  author  = {Anelia Schulz and Tobias Bocklet and Ulrich Eysholdt and Christoher Bohr and Michael Döllinger and Anke Ziethe},
+  title   = {{Validation of an automatic speech analysis in children with isolated cleft palate}},
+  journal = {HNO},
+  year    = {2014},
+  volume  = {62},
+  pages   = {525--529},
+}
+
+@Article{Schuller2015Surveyperceivedspeaker,
+  author  = {Björn Schuller and Stefan Steidl and Anton Batliner and Elmar Nöth and Alessandro Vinciarelli and Felix Burkhardt and Rob van Son and Felix Weninger and Florian Eyben and Tobias Bocklet and Gelareh Mohammadi and Benjamin Weiss},
+  title   = {{A Survey on perceived speaker traits: Personality, likability, pathology, and the first challenge}},
+  journal = CSL,
+  year    = {2015},
+  volume  = {29},
+  pages   = {100--131},
+}
+
+@Article{Boehm2016SpeechAbilityPsychological,
+  author  = {N Böhm and Christian Knipfer and Andreas Maier and Tobias Bocklet and M Rohder and F.W. Neukam and Florian Stelzle and Maria Schuster},
+  title   = {{Speech Ability and Psychological Outcome After Treatment of Oral Cancer}},
+  journal = {Laryngorhinootologie},
+  year    = {2016},
+  volume  = {95},
+  pages   = {610--619},
+}
+
+@Article{Correa2018Towardsautomaticevaluation,
+  author   = {Juan Camilo Vasquez Correa and Juan Rafael Orozco-Arroyave and Tobias Bocklet and Elmar Nöth},
+  title    = {{Towards an automatic evaluation of the dysarthria level of patients with Parkinson's disease}},
+  journal  = {Journal of Communication Disorders},
+  year     = {2018},
+  volume   = {76},
+  pages    = {21--36},
+  doi      = {10.1016/j.jcomdis.2018.08.002},
+  url      = {https://www5.informatik.uni-erlangen.de/Forschung/Publikationen/2018/Vasquez-Correa18-TAA.pdf},
+  keywords = {Parkinson's disease, Phonation, Articulation, Prosody, Frenchay Dysarthria Assessment, Longitudinal analysis},
+}
+
+@Article{Orozco-Arroyave2018NeuroSpeechopensource,
+  author   = {Juan Rafael Orozco-Arroyave and Juan Camilo Vasquez Correa and Jesus Francisco Vargas Bonilla and Raman Arora and Najim Dehak and Phani Nidavavolu and Heidi Christensen and Frank Rudzicz and Maria Yancheva and Hamidreza Chinaei and Alysa Vann and Nicolai Vogler and Tobias Bocklet and Milos Cernak and Julius Hannink and Elmar Nöth},
+  title    = {{NeuroSpeech: An open-source software for Parkinson's speech analysis}},
+  journal  = {Digital Signal Processing},
+  year     = {2018},
+  volume   = {77},
+  pages    = {207--221},
+  doi      = {10.1016/j.dsp.2017.07.004},
+  keywords = {Parkinson's disease; Dysarthria; Speech processing; Python; Software},
+}
+
+@Patent{Georges2017AdaptingCloudSpeech,
+  author = {Georges, M. and Tobias Bocklet and Nowicki, J. and Rozen, P.},
+  title  = {Adapting Cloud Speech Services by Client-Based Continuous Context Detection on different Domains},
+  year   = {2017},
+  note   = {to appear},
+}
+
+@Patent{Bocklet2017WakeVoiceKeyword,
+  author = {Tobias Bocklet and Georges, M.},
+  title  = {Wake-on-Voice Keyword Detection with Integrated Language Identification},
+  year   = {2017},
+  note   = {US Patent App. 15/621,029},
+}
+
+@Patent{Ravindran2017SystemsMethodsEnergy,
+  author = {Ravindran, B. and Tobias Bocklet},
+  title  = {Systems and Methods for Energy Efficient And Low Power Distributed Automatic Speech Recognition On Wearable Devices},
+  year   = {2017},
+  note   = {US Patent App. 15/475,329},
+}
+
+@Patent{Bocklet2016IntermediateScoringRejection,
+  author = {Tobias Bocklet and Marek, A.},
+  title  = {Intermediate Scoring and Rejection Loopback for Improved Key Phrase Detection},
+  year   = {2016},
+  note   = {US Patent App. 15/057,695},
+}
+
+@Patent{Hofer2017Technologiesrobustcrying,
+  author = {Joachim Hofer and Tobias Bocklet and Georg Stemmer and Pearce, D. and Czyryba, S. and Josef Bauer},
+  title  = {Technologies for robust crying detection using temporal characteristics of acoustic features},
+  year   = {2017},
+  note   = {US Patent App. 14/979,108},
+}
+
+@Patent{Bocklet2015USERDEFINEDKEY,
+  author = {Tobias Bocklet and Josef Bauer},
+  title  = {USER DEFINED KEY PHRASE DETECTION BY USER DEPENDENT SEQUENCE MODELING},
+  year   = {2015},
+  note   = {US Patent App. 15/201,016},
+}
+
+@Patent{Bocklet2017Lowresourcekey,
+  author = {Tobias Bocklet and Joachim Hofer},
+  title  = {Low resource key phrase detection for wake on voice},
+  year   = {2017},
+  note   = {US Patent App. 14/950,670},
+}
+
+@Patent{Georges2015SPOKENLANGUAGEUNDERSTANDING,
+  author = {Georges, M. and Tobias Bocklet and Josef Bauer and Joachim Hofer and Georg Stemmer},
+  title  = {SPOKEN LANGUAGE UNDERSTANDING BASED ON BUFFERED KEYWORD SPOTTING AND SPEECH RECOGNITION},
+  year   = {2015},
+  note   = {US Patent App. 15/483,421},
+}
+
+@Patent{Huang2015METHODSYSTEMSPEAKER,
+  author = {Huang, J. and Tobias Bocklet and Cilingir, G.},
+  title  = {METHOD AND SYSTEM OF SPEAKER RECOGNITION USING CONTEXT AWARE CONFIDENCE MODELING},
+  year   = {2015},
+  note   = {US Patent App. 15/483,246},
+}
+
+@Patent{Bocklet2015Linearscoringlow,
+  author = {Tobias Bocklet and Sobon, P. and Dorau, T. and Tomaszewski, P.},
+  title  = {Linear scoring for low power wake on voice},
+  year   = {2015},
+  note   = {US Patent App. 15/390,384},
+}
+
+@Patent{Bocklet2016Replayattackdetection,
+  author = {Tobias Bocklet and Marek, A. and Chlebek, P.},
+  title  = {Replay attack detection in automatic speaker verification systems},
+  year   = {2016},
+  note   = {WO Patent App. PCT/PL2014/050,041},
+}
+
+@Patent{Bocklet2016Trainingclassifiersusing,
+  author = {Tobias Bocklet and Marek, A.},
+  title  = {Training classifiers using selected cohort sample subsets},
+  year   = {2016},
+  note   = {WO Patent App. PCT/PL2014/050,017},
+}
+
+@Patent{Bocklet2016Cepstralvariancenormalization,
+  author = {Tobias Bocklet},
+  title  = {Cepstral variance normalization for audio feature extraction},
+  year   = {2016},
+  note   = {WO Patent App. PCT/PL2014/000151},
 }
 
