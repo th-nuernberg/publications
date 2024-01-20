@@ -18,9 +18,10 @@ exclude:
 
 scholar:
   style: elsevier-harvard
-  sort_by: year
+  sort_by: year, month
   order: descending
-  group_by: type
+  group_by: year, type
+  group_order: descending
   bibliography_template: {{ reference }}
   type_names:
     misc: Talks
